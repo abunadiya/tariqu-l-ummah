@@ -168,7 +168,7 @@
   "source": {
     "title": "التحقق من المصادر",
     "button": "النص الأصلي في المصادر العربية (Waqfeya.net)",
-    "russianPrefix": "باللغة الحالية:"
+    "referencePrefix": "باللغة الحالية:"
   },
   "decline": {
     "defaultTitle": "تحليل أسباب الانحدار",

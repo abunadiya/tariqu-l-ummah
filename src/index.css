@@ -504,30 +504,28 @@ body {
 }
 
 .historical-map-wrap {
-  max-width: 900px;
+  max-width: 960px;
+  background: #eef6fa;
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+  overflow: hidden;
 }
 
-.historical-map-ocean {
-  fill: #d8ebe6;
+.historical-map-composable {
+  display: block;
+  height: auto;
+  aspect-ratio: 2 / 1;
 }
 
-.historical-map-land {
-  fill: #eef5f1;
-  stroke: rgba(13, 92, 75, 0.12);
-}
-
-.historical-map-region {
-  fill: rgba(13, 92, 75, 0.28);
-  stroke: rgba(13, 92, 75, 0.55);
-  stroke-width: 1.5;
-  cursor: pointer;
+.historical-map-country {
   transition: fill 0.2s ease;
 }
 
-.historical-map-region:hover,
-.historical-map-region.is-active,
-.historical-map-region:focus {
-  fill: rgba(184, 134, 11, 0.55);
+.historical-map-country--highlighted {
+  cursor: pointer;
+}
+
+.historical-map-country--highlighted:focus {
   outline: none;
 }
 

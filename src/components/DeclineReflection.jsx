@@ -4,9 +4,11 @@ import { useTranslation } from 'react-i18next';
 const DeclineReflection = ({
   title,
   waqfeyaId,
+  sourceText,
   russianText,
   children,
 }) => {
+  const citation = sourceText ?? russianText;
   const { t } = useTranslation();
   const heading = title ?? t('decline.defaultTitle', { defaultValue: 'Анализ причин упадка' });
 
@@ -28,11 +30,11 @@ const DeclineReflection = ({
       {children}
     </blockquote>
 
-    {waqfeyaId && russianText && (
+    {waqfeyaId && citation && (
       <SourceVerification
         waqfeyaId={waqfeyaId}
         buttonClass="btn-source-emerald"
-        russianText={russianText}
+        sourceText={citation}
       />
     )}
   </aside>

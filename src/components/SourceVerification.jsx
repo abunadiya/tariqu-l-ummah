@@ -1,7 +1,17 @@
 import { useTranslation } from 'react-i18next';
 
-const SourceVerification = ({ waqfeyaId, russianText, buttonClass = 'btn-source-arabic' }) => {
+const SourceVerification = ({
+  waqfeyaId,
+  sourceText,
+  russianText,
+  buttonClass = 'btn-source-arabic',
+}) => {
   const { t } = useTranslation();
+  const citation = sourceText ?? russianText;
+
+  if (!citation) {
+    return null;
+  }
 
   return (
     <div className="source-verification mt-4 p-3 p-md-4 rounded-3">
@@ -19,7 +29,7 @@ const SourceVerification = ({ waqfeyaId, russianText, buttonClass = 'btn-source-
         {t('source.button')}
       </a>
       <span className="text-secondary small d-block mt-2 lh-base">
-        <strong>{t('source.russianPrefix')}</strong> {russianText}
+        <strong>{t('source.referencePrefix')}</strong> {citation}
       </span>
     </div>
   );

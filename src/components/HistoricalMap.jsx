@@ -1,14 +1,14 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
+import { ComposableMap, Geographies, Geography } from 'react-simple-maps';
 import { useTranslation } from 'react-i18next';
 import { MAP_REGIONS } from '../constants/sections';
+import { getRegionForCountry } from '../constants/mapCountries';
 
-const REGION_PATHS = {
-  hijaz: 'M 420 280 L 460 260 L 500 270 L 510 300 L 480 330 L 440 325 L 410 305 Z',
-  sham: 'M 380 220 L 430 210 L 450 240 L 440 270 L 400 275 L 370 250 Z',
-  egyptMaghreb: 'M 300 250 L 370 240 L 380 290 L 340 340 L 280 320 L 270 280 Z',
-  mesopotamia: 'M 450 240 L 520 230 L 540 270 L 520 310 L 460 300 L 440 260 Z',
-  andalusia: 'M 220 250 L 270 240 L 280 280 L 250 300 L 210 285 Z',
-};
+const GEO_URL = 'https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json';
+
+const REGION_CHAPTER = Object.fromEntries(
+  MAP_REGIONS.map((region) => [region.id, region.chapterId]),
+);
 
 const HistoricalMap = () => {
   const { t } = useTranslation();
@@ -22,17 +22,48 @@ const HistoricalMap = () => {
     }
   };
 
-  const handleRegionEnter = (region, event) => {
-    setActiveRegion(region.id);
+  const handleCountryEnter = (regionId, event) => {
+    setActiveRegion(regionId);
     const rect = event.currentTarget.closest('.historical-map-wrap')?.getBoundingClientRect();
     if (rect) {
       setTooltip({
-        id: region.id,
+        id: regionId,
         x: event.clientX - rect.left,
         y: event.clientY - rect.top,
       });
     }
   };
+
+  const handleCountryMove = (regionId, event) => {
+    const rect = event.currentTarget.closest('.historical-map-wrap')?.getBoundingClientRect();
+    if (rect) {
+      setTooltip({
+        id: regionId,
+        x: event.clientX - rect.left,
+        y: event.clientY - rect.top,
+      });
+    }
+  };
+
+  const clearInteraction = () => {
+    setActiveRegion(null);
+    setTooltip(null);
+  };
+
+  const handleCountryClick = (regionId) => {
+    const chapterId = REGION_CHAPTER[regionId];
+    if (chapterId) {
+      scrollToChapter(chapterId);
+    }
+  };
+
+  const projectionConfig = useMemo(
+    () => ({
+      scale: 145,
+      center: [15, 18],
+    }),
+    [],
+  );
 
   return (
     <section className="historical-map-section container py-4">
@@ -43,49 +74,95 @@ const HistoricalMap = () => {
         </div>
 
         <div className="historical-map-wrap position-relative mx-auto">
-          <svg
-            viewBox="0 0 720 420"
-            className="historical-map-svg w-100"
-            role="img"
-            aria-label={t('map.title')}
+          <ComposableMap
+            className="historical-map-composable w-100"
+            projection="geoMercator"
+            projectionConfig={projectionConfig}
           >
-            <rect x="0" y="0" width="720" height="420" className="historical-map-ocean" />
-            <path
-              d="M 180 180 L 560 160 L 600 360 L 160 380 Z"
-              className="historical-map-land"
-            />
-            {MAP_REGIONS.map((region) => (
-              <path
-                key={region.id}
-                d={REGION_PATHS[region.id]}
-                className={`historical-map-region ${activeRegion === region.id ? 'is-active' : ''}`}
-                onMouseEnter={(event) => handleRegionEnter(region, event)}
-                onMouseMove={(event) => handleRegionEnter(region, event)}
-                onMouseLeave={() => {
-                  setActiveRegion(null);
-                  setTooltip(null);
-                }}
-                onClick={() => scrollToChapter(region.chapterId)}
-                onKeyDown={(event) => {
-                  if (event.key === 'Enter' || event.key === ' ') {
-                    event.preventDefault();
-                    scrollToChapter(region.chapterId);
-                  }
-                }}
-                tabIndex={0}
-                role="button"
-                aria-label={`${t(`map.regions.${region.id}.arabic`)} / ${t(`map.regions.${region.id}.name`)}`}
-              />
-            ))}
-          </svg>
+            <Geographies geography={GEO_URL}>
+              {({ geographies }) =>
+                geographies.map((geo) => {
+                  const regionId = getRegionForCountry(geo.id);
+                  const isHighlighted = Boolean(regionId);
+                  const isActive = regionId && activeRegion === regionId;
+
+                  return (
+                    <Geography
+                      key={geo.rsmKey}
+                      geography={geo}
+                      className={`historical-map-country${
+                        isHighlighted ? ' historical-map-country--highlighted' : ''
+                      }${isActive ? ' is-active' : ''}`}
+                      tabIndex={isHighlighted ? 0 : -1}
+                      role={isHighlighted ? 'button' : undefined}
+                      aria-label={
+                        isHighlighted
+                          ? `${t(`map.regions.${regionId}.arabic`)} / ${t(`map.regions.${regionId}.name`)}`
+                          : geo.properties?.name
+                      }
+                      onMouseEnter={
+                        isHighlighted
+                          ? (event) => handleCountryEnter(regionId, event)
+                          : undefined
+                      }
+                      onMouseMove={
+                        isHighlighted
+                          ? (event) => handleCountryMove(regionId, event)
+                          : undefined
+                      }
+                      onMouseLeave={isHighlighted ? clearInteraction : undefined}
+                      onClick={
+                        isHighlighted ? () => handleCountryClick(regionId) : undefined
+                      }
+                      onKeyDown={
+                        isHighlighted
+                          ? (event) => {
+                              if (event.key === 'Enter' || event.key === ' ') {
+                                event.preventDefault();
+                                handleCountryClick(regionId);
+                              }
+                            }
+                          : undefined
+                      }
+                      style={{
+                        default: {
+                          fill: isHighlighted ? 'rgba(13, 92, 75, 0.72)' : '#e8e4dc',
+                          stroke: isHighlighted ? '#0d5c4b' : '#c8c4bc',
+                          strokeWidth: isHighlighted ? 0.6 : 0.35,
+                          outline: 'none',
+                          transition: 'fill 0.2s ease, stroke 0.2s ease',
+                        },
+                        hover: {
+                          fill: isHighlighted ? 'rgba(184, 134, 11, 0.78)' : '#e8e4dc',
+                          stroke: isHighlighted ? '#8b6914' : '#c8c4bc',
+                          strokeWidth: isHighlighted ? 0.75 : 0.35,
+                          outline: 'none',
+                          cursor: isHighlighted ? 'pointer' : 'default',
+                        },
+                        pressed: {
+                          fill: isHighlighted ? 'rgba(13, 92, 75, 0.9)' : '#e8e4dc',
+                          stroke: isHighlighted ? '#0d5c4b' : '#c8c4bc',
+                          outline: 'none',
+                        },
+                      }}
+                    />
+                  );
+                })
+              }
+            </Geographies>
+          </ComposableMap>
 
           {tooltip && (
             <div
               className="historical-map-tooltip"
               style={{ left: tooltip.x, top: tooltip.y }}
             >
-              <div className="historical-map-tooltip-ar">{t(`map.regions.${tooltip.id}.arabic`)}</div>
-              <div className="historical-map-tooltip-local">{t(`map.regions.${tooltip.id}.name`)}</div>
+              <div className="historical-map-tooltip-ar">
+                {t(`map.regions.${tooltip.id}.arabic`)}
+              </div>
+              <div className="historical-map-tooltip-local">
+                {t(`map.regions.${tooltip.id}.name`)}
+              </div>
             </div>
           )}
         </div>

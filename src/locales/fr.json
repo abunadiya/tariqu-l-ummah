@@ -168,7 +168,7 @@
   "source": {
     "title": "Vérification des sources",
     "button": "Texte original dans les sources arabes (Waqfeya.net)",
-    "russianPrefix": "Dans la langue actuelle :"
+    "referencePrefix": "Dans la langue actuelle :"
   },
   "decline": {
     "defaultTitle": "Analyse des causes du déclin",

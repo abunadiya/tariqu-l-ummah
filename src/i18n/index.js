@@ -4,6 +4,14 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import ru from '../locales/ru.json';
 import ar from '../locales/ar.json';
 import fr from '../locales/fr.json';
+import ruPages from '../locales/content/ru-pages.json';
+import arPages from '../locales/content/ar-pages.json';
+import frPages from '../locales/content/fr-pages.json';
+
+const mergeLocale = (base, pagesContent) => ({
+  ...base,
+  pages: pagesContent.pages,
+});
 
 export const RTL_LANGUAGES = ['ar'];
 
@@ -19,9 +27,9 @@ i18n
   .use(initReactI18next)
   .init({
     resources: {
-      ru: { translation: ru },
-      ar: { translation: ar },
-      fr: { translation: fr },
+      ru: { translation: mergeLocale(ru, ruPages) },
+      ar: { translation: mergeLocale(ar, arPages) },
+      fr: { translation: mergeLocale(fr, frPages) },
     },
     fallbackLng: 'ru',
     supportedLngs: ['ru', 'ar', 'fr'],

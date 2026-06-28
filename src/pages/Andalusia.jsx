@@ -1,88 +1,23 @@
-﻿import PageShell from '../components/PageShell';
-import AccordionTopic from '../components/AccordionTopic';
-import SourceVerification from '../components/SourceVerification';
-import { SECTION_ICONS as I } from '../constants/sectionIcons';
+﻿import { useTranslation } from 'react-i18next';
+import PageShell from '../components/PageShell';
+import ChapterTopics from '../components/ChapterTopics';
+import { ANDALUSIA_TOPICS } from '../constants/pageTopics';
 
 const Andalusia = () => {
+  const { t } = useTranslation();
+  const pageKey = 'andalusia';
+
   return (
     <PageShell
-      title="Андалусский Халифат"
-      subtitle="138–897 гг.х. (756–1492 гг. н.э.) — От спасения омейядского наследия до расцвета суннитской науки на Западе и горьких уроков раздробленности."
+      title={t(`pages.${pageKey}.title`)}
+      subtitle={t(`pages.${pageKey}.subtitle`)}
       accent="#40916c"
     >
-      <div className="accordion path-accordion shadow-sm" id="andalusiaAccordion">
-        <AccordionTopic
-          id="collapseAn1"
-          parentId="andalusiaAccordion"
-          icon={I.castle}
-          title="Тема 1: 138 г.х. (756 г. н.э.) — Спасение Омейядов и возрождение Кордовы Абд ар-Рахманом I"
-          defaultOpen
-        >
-          <p>
-            После падения Дамаска в 132 г.х. 20-летний омейядский принц Абд
-            ар-Рахман I (ад-Дахиль — «Пришелец»), которого Аллах сохранил от преследований,
-            исполняя свой долг, пересекает
-            Северную Африку и высаживается на Пиренейском полуострове. В 138 г.х. (756 г.
-            н.э.) он объединяет местных мусульман и основывает независимый Кордовский эмират.
-            Он превратил Кордову в цветущую столицу, начав строительство Великой мечети, и
-            вернул стабильность и Шариат на земли Европы.
-          </p>
-          <SourceVerification
-            waqfeyaId="3812"
-            buttonClass="btn-source-emerald"
-            russianText="См. Ибн Касир, «Аль-Бидая ва-н-Нихая», том 10, жизнеописание Абд ар-Рахмана ад-Дахиля и хроника основания Кордовского эмирата в 138 г.х."
-          />
-        </AccordionTopic>
-
-        <AccordionTopic
-          id="collapseAn2"
-          parentId="andalusiaAccordion"
-          icon={I.shield}
-          title="Тема 2: 317 г.х. (929 г. н.э.) — Вынужденный Халифат на Западе и защита суннитской акыды"
-        >
-          <p>
-            Когда в Северной Африке укрепился агрессивный шиитский (исмаилитский)
-            лже-халифат Фатимидов, суннитское население Андалусии оказалось перед
-            испытанием, которое Аллах ниспослал Умме на Западе. Чтобы исполнить долг
-            защиты акыды, великий эмир Абд ар-Рахман
-            III принимает титул халифа в 317 г.х. (929 г. н.э.). Авторитетные суннитские
-            факихи (включая Ибн Хазма и имама аль-Куртуби) постановили, что из-за огромных
-            расстояний и разделяющих морей существование двух правителей допустимо ради
-            защиты верующих от ереси. Это эпоха величайшего расцвета фикха, суннитских
-            наук и архитектуры.
-          </p>
-          <SourceVerification
-            waqfeyaId="1285"
-            buttonClass="btn-source-emerald"
-            russianText="См. Трактаты Ибн Хазма об управлении и акыде, а также правовые выводы и тафсир имама аль-Куртуби относительно легитимности защиты суннитских территорий."
-          />
-        </AccordionTopic>
-
-        <AccordionTopic
-          id="collapseAn3"
-          parentId="andalusiaAccordion"
-          icon={I.marker}
-          title="Тема 3: 422 г.х. (1031 г. н.э.) — Распад на Тайфы и падение Гранады в 897 г.х. (1492 г. н.э.)"
-        >
-          <p>
-            Погрязнув во внутренних переворотах, пресыщенности роскошью и сделав ошибочную
-            ставку на наёмные войска, единый Халифат рушится в 422 г.х. — испытание, которое
-            Аллах ниспослал Умме, дабы проявилось, к чему ведёт отступление от шариата. Страна
-            распадается
-            на 20 мелких враждующих эмиратов (Тайфы). Гордыня местных амиров, уплата
-            унизительной дани христианским королям и предательские союзы с кафирами против
-            братьев-мусульман привели к тяжёлому испытанию региона. В 897 г.х. (1492 г. н.э.)
-            последний
-            эмир Гранады Абу Абдаллах сдаёт город без боя, и Аллах предопределил завершение
-            эпохи Андалусии на этих землях.
-          </p>
-          <SourceVerification
-            waqfeyaId="3401"
-            buttonClass="btn-source-emerald"
-            russianText="См. Ибн Хальдун, «Книга назиданий» (Аль-Ибар), фундаментальный разбор причин гибели Андалусского Халифата и пагубности союзов мелких эмиров с кафирами."
-          />
-        </AccordionTopic>
-      </div>
+      <ChapterTopics
+        pageKey={pageKey}
+        topics={ANDALUSIA_TOPICS}
+        parentId="andalusiaAccordion"
+      />
     </PageShell>
   );
 };
