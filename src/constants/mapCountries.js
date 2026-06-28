@@ -1,64 +1,68 @@
 /**
  * ISO 3166-1 numeric codes → historical map region id.
- * Atlas: world-atlas@2 countries-110m
+ * Только страны, чьи современные границы совпадают с историческими областями.
+ * Россия, Китай, вся Украина и весь Казахстан — через mapHistoricalZones.js.
  */
 export const COUNTRY_TO_REGION = {
   // Андалусия
-  724: 'andalusia', // Spain
-  620: 'andalusia', // Portugal
+  724: 'andalusia',
+  620: 'andalusia',
 
   // Магриб и Египет
-  504: 'maghrebEgypt', // Morocco
-  12: 'maghrebEgypt', // Algeria
-  788: 'maghrebEgypt', // Tunisia
-  818: 'maghrebEgypt', // Egypt
-  434: 'maghrebEgypt', // Libya
+  504: 'maghrebEgypt',
+  12: 'maghrebEgypt',
+  788: 'maghrebEgypt',
+  818: 'maghrebEgypt',
+  434: 'maghrebEgypt',
 
   // Хиджаз и Наджд (Аравия)
-  682: 'hijaz', // Saudi Arabia
-  887: 'hijaz', // Yemen
-  512: 'hijaz', // Oman
-  784: 'hijaz', // UAE
-  634: 'hijaz', // Qatar
-  48: 'hijaz', // Bahrain
-  414: 'hijaz', // Kuwait
+  682: 'hijaz',
+  887: 'hijaz',
+  512: 'hijaz',
+  784: 'hijaz',
+  634: 'hijaz',
+  48: 'hijaz',
+  414: 'hijaz',
 
   // Шам
-  760: 'sham', // Syria
-  400: 'sham', // Jordan
-  422: 'sham', // Lebanon
-  275: 'sham', // Palestine
+  760: 'sham',
+  400: 'sham',
+  422: 'sham',
+  275: 'sham',
 
   // Месopotamia и Персия
-  368: 'mesopotamia', // Iraq
-  364: 'mesopotamia', // Iran
+  368: 'mesopotamia',
+  364: 'mesopotamia',
 
-  // Кавказ (Дагестан и Чечня — часть России на карте стран)
-  643: 'caucasus', // Russia (Северный Кавказ)
-  31: 'caucasus', // Azerbaijan
-  268: 'caucasus', // Georgia
-  51: 'caucasus', // Armenia
+  // Кавказ (отдельные государства; российский Северный Кавказ — зона на карте)
+  31: 'caucasus',
+  268: 'caucasus',
+  51: 'caucasus',
 
-  // Поволжье и Крым (глава «Крым и Поволжье»)
-  804: 'volga', // Ukraine (Крым в атласе world-atlas)
-
-  // Мавераннахр / Средняя Азия
-  860: 'centralAsia', // Uzbekistan
-  762: 'centralAsia', // Tajikistan
-  795: 'centralAsia', // Turkmenistan
-  398: 'centralAsia', // Kazakhstan
-  417: 'centralAsia', // Kyrgyzstan
+  // Мавераннахр (южный Казахстан — зона на карте)
+  860: 'centralAsia',
+  762: 'centralAsia',
+  795: 'centralAsia',
+  417: 'centralAsia',
 
   // Индостан
-  586: 'hindustan', // Pakistan
-  356: 'hindustan', // India
-  50: 'hindustan', // Bangladesh
-  4: 'hindustan', // Afghanistan (часть восточного исламского пространства)
+  586: 'hindustan',
+  356: 'hindustan',
+  50: 'hindustan',
+  4: 'hindustan',
 };
+
+/** Страны, которые никогда не подсвечиваются целиком (даже при ошибке в словаре). */
+export const EXCLUDED_COUNTRY_IDS = new Set([
+  643, // Russia
+  156, // China
+  398, // Kazakhstan (только южная зона)
+  804, // Ukraine (только Крым — зона)
+]);
 
 export const getRegionForCountry = (geoId) => {
   const numeric = Number.parseInt(String(geoId), 10);
-  if (Number.isNaN(numeric)) {
+  if (Number.isNaN(numeric) || EXCLUDED_COUNTRY_IDS.has(numeric)) {
     return null;
   }
   return COUNTRY_TO_REGION[numeric] ?? null;

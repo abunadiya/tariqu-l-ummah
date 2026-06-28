@@ -525,6 +525,10 @@ body {
   cursor: pointer;
 }
 
+.historical-map-zone {
+  pointer-events: all;
+}
+
 .historical-map-country--highlighted:focus {
   outline: none;
 }
