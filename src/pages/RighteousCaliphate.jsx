@@ -1,4 +1,4 @@
-import PageShell from '../components/PageShell';
+﻿import PageShell from '../components/PageShell';
 import AccordionTopic from '../components/AccordionTopic';
 import SourceVerification from '../components/SourceVerification';
 import { SECTION_ICONS as I } from '../constants/sectionIcons';
@@ -8,9 +8,8 @@ const RighteousCaliphate = () => {
     <PageShell
       title="Эпоха Праведного Халифата"
       subtitle="11–41 гг.х. (632–661 гг. н.э.) — Золотой век формирования исламской государственности, кодификации основ Шариата, стойкости в защите Таухида и стремительного распространения Ислама."
-      silhouette="warrior"
     >
-      <div className="accordion encyclopedia-accordion shadow-sm" id="caliphateAccordion">
+      <div className="accordion path-accordion shadow-sm" id="caliphateAccordion">
         <AccordionTopic
           id="collapseOne"
           parentId="caliphateAccordion"

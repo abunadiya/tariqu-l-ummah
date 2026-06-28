@@ -1,4 +1,4 @@
-import PageShell from '../components/PageShell';
+﻿import PageShell from '../components/PageShell';
 import AccordionTopic from '../components/AccordionTopic';
 import SourceVerification from '../components/SourceVerification';
 import { SECTION_ICONS as I } from '../constants/sectionIcons';
@@ -9,9 +9,8 @@ const CentralAsia = () => {
       title="Ислам в Средней Азии и Трагедия Туркестана"
       subtitle="От блистательного суннитского Мавераннахра и эпохи великих мухаддисов до колониального расчленения мусульманских земель между Россией и Китаем."
       accent="#2a9d8f"
-      silhouette="traveler"
     >
-      <div className="accordion encyclopedia-accordion shadow-sm" id="asiaAccordion">
+      <div className="accordion path-accordion shadow-sm" id="asiaAccordion">
         <AccordionTopic
           id="collapseAs1"
           parentId="asiaAccordion"

@@ -1,4 +1,4 @@
-import PageShell from '../components/PageShell';
+﻿import PageShell from '../components/PageShell';
 import AccordionTopic from '../components/AccordionTopic';
 import SourceVerification from '../components/SourceVerification';
 import { SECTION_ICONS as I } from '../constants/sectionIcons';
@@ -9,9 +9,8 @@ const Andalusia = () => {
       title="Андалусский Халифат"
       subtitle="138–897 гг.х. (756–1492 гг. н.э.) — От спасения омейядского наследия до расцвета суннитской науки на Западе и горьких уроков раздробленности."
       accent="#40916c"
-      silhouette="warrior"
     >
-      <div className="accordion encyclopedia-accordion shadow-sm" id="andalusiaAccordion">
+      <div className="accordion path-accordion shadow-sm" id="andalusiaAccordion">
         <AccordionTopic
           id="collapseAn1"
           parentId="andalusiaAccordion"

@@ -6,10 +6,10 @@ const AccordionTopic = ({
   defaultOpen = false,
   children,
 }) => (
-  <div className="accordion-item encyclopedia-accordion-item border-0 border-bottom">
+  <div className="accordion-item path-accordion-item border-0 border-bottom">
     <h2 className="accordion-header" id={`heading-${id}`}>
       <button
-        className={`accordion-button encyclopedia-accordion-button fw-semibold ${defaultOpen ? '' : 'collapsed'}`}
+        className={`accordion-button path-accordion-button fw-semibold ${defaultOpen ? '' : 'collapsed'}`}
         type="button"
         data-bs-toggle="collapse"
         data-bs-target={`#${id}`}
@@ -28,7 +28,7 @@ const AccordionTopic = ({
       aria-labelledby={`heading-${id}`}
       data-bs-parent={`#${parentId}`}
     >
-      <div className="accordion-body encyclopedia-accordion-body text-muted lh-lg">{children}</div>
+      <div className="accordion-body path-accordion-body text-muted lh-lg">{children}</div>
     </div>
   </div>
 );

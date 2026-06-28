@@ -1,4 +1,4 @@
-import PageShell from '../components/PageShell';
+﻿import PageShell from '../components/PageShell';
 import AccordionTopic from '../components/AccordionTopic';
 import SourceVerification from '../components/SourceVerification';
 import { SECTION_ICONS as I } from '../constants/sectionIcons';
@@ -9,9 +9,8 @@ const NorthCaucasus = () => {
       title="Ислам на Северном Кавказе"
       subtitle="Хронология стойкости, защиты северных рубежей Уммы, героического сопротивления колониализму и верности Таухиду — от эпохи сахабов до трагедии Кавказской войны."
       accent="var(--emerald-light)"
-      silhouette="warrior"
     >
-      <div className="accordion encyclopedia-accordion shadow-sm" id="caucasusAccordion">
+      <div className="accordion path-accordion shadow-sm" id="caucasusAccordion">
         <AccordionTopic
           id="collapseNc1"
           parentId="caucasusAccordion"

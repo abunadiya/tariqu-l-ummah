@@ -8,9 +8,8 @@ const Omayyads = () => {
     <PageShell
       title="Омейядский Халифат"
       subtitle="41–132 гг.х. (661–750 гг. н.э.) — От утверждения власти в Дамаске до великого расширения на востоке и западе, открытия Андалусии, справедливого правления Умара ибн Абдуль-Азиза и падения династии."
-      silhouette="warrior"
     >
-      <div className="accordion encyclopedia-accordion shadow-sm" id="omayyadAccordion">
+      <div className="accordion path-accordion shadow-sm" id="omayyadAccordion">
         <AccordionTopic
           id="collapseOm1"
           parentId="omayyadAccordion"

@@ -1,4 +1,4 @@
-import PageShell from '../components/PageShell';
+﻿import PageShell from '../components/PageShell';
 import AccordionTopic from '../components/AccordionTopic';
 import SourceVerification from '../components/SourceVerification';
 import { SECTION_ICONS as I } from '../constants/sectionIcons';
@@ -9,9 +9,8 @@ const Crimea = () => {
       title="Ислам в Крыму и на Поволжье"
       subtitle="От Крымского Ханства и волжских мусульман до колониального гнёта, уничтожения мечетей и насильственного стирания арабской письменности."
       accent="var(--gold)"
-      silhouette="warrior"
     >
-      <div className="accordion encyclopedia-accordion shadow-sm" id="crimeaAccordion">
+      <div className="accordion path-accordion shadow-sm" id="crimeaAccordion">
         <AccordionTopic
           id="collapseCr1"
           parentId="crimeaAccordion"
