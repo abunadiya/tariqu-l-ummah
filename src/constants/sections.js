@@ -3,9 +3,13 @@ import { SECTION_ICONS as I } from './sectionIcons';
 export const MAP_REGIONS = [
   { id: 'hijaz', chapterId: 'sahabah' },
   { id: 'sham', chapterId: 'righteous' },
-  { id: 'egyptMaghreb', chapterId: 'omayyads' },
+  { id: 'maghrebEgypt', chapterId: 'omayyads' },
   { id: 'mesopotamia', chapterId: 'abbasids' },
   { id: 'andalusia', chapterId: 'andalusia' },
+  { id: 'caucasus', chapterId: 'caucasus' },
+  { id: 'volga', chapterId: 'crimea' },
+  { id: 'centralAsia', chapterId: 'centralAsia' },
+  { id: 'hindustan', chapterId: 'omayyads' },
 ];
 
 export const PATH_CHAPTERS = [
@@ -36,7 +40,7 @@ export const PATH_CHAPTERS = [
     id: 'omayyads',
     to: '/omayyads',
     icon: I.shield,
-    mapRegion: 'egyptMaghreb',
+    mapRegion: 'maghrebEgypt',
     related: [
       { to: '/righteous', hintKey: 'righteous' },
       { to: '/andalusia', hintKey: 'andalusia' },
@@ -58,9 +62,10 @@ export const PATH_CHAPTERS = [
     id: 'caucasus',
     to: '/caucasus',
     icon: I.shieldOutline,
+    mapRegion: 'caucasus',
     related: [
-      { to: '/righteous', hintKey: 'righteous' },
       { to: '/omayyads', hintKey: 'omayyads' },
+      { to: '/abbasids', hintKey: 'abbasids' },
       { to: '/crimea', hintKey: 'crimea' },
     ],
   },
@@ -68,6 +73,7 @@ export const PATH_CHAPTERS = [
     id: 'centralAsia',
     to: '/central-asia',
     icon: I.manuscript,
+    mapRegion: 'centralAsia',
     related: [
       { to: '/omayyads', hintKey: 'omayyads' },
       { to: '/abbasids', hintKey: 'abbasids' },
@@ -89,6 +95,7 @@ export const PATH_CHAPTERS = [
     id: 'crimea',
     to: '/crimea',
     icon: I.crescent,
+    mapRegion: 'volga',
     related: [
       { to: '/caucasus', hintKey: 'caucasus' },
       { to: '/central-asia', hintKey: 'centralAsia' },

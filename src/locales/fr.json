@@ -34,24 +34,40 @@
     "hint": "Survolez une région pour voir son nom. Cliquez pour accéder au chapitre correspondant.",
     "regions": {
       "hijaz": {
-        "name": "Hijaz / Péninsule arabique",
-        "arabic": "الحِجَاز / شِبْهُ الجَزِيرَةِ العَرَبِيَّة"
+        "name": "Hijaz et Najd (Arabie)",
+        "arabic": "الحِجَازُ وَالنَّجْد"
       },
       "sham": {
-        "name": "Sham (Syrie, Jordanie, Palestine)",
+        "name": "Sham (Syrie, Palestine, Jordanie, Liban)",
         "arabic": "الشَّام"
       },
-      "egyptMaghreb": {
-        "name": "Égypte et Maghreb",
-        "arabic": "مِصْر وَالمَغْرِب"
+      "maghrebEgypt": {
+        "name": "Maghreb et Égypte",
+        "arabic": "المَغْرِبُ وَمِصْر"
       },
       "mesopotamia": {
         "name": "Mésopotamie et Perse",
         "arabic": "بِلَادُ الرَّافِدَيْنِ وَفَارِس"
       },
       "andalusia": {
-        "name": "Andalousie (Espagne)",
+        "name": "Andalousie (Espagne et Portugal)",
         "arabic": "الأَنْدَلُس"
+      },
+      "caucasus": {
+        "name": "Caucase (Daghestan, Tchétchénie, Azerbaïdjan)",
+        "arabic": "القَوْقَاز"
+      },
+      "volga": {
+        "name": "Volga et Crimée (Bulgarie historique)",
+        "arabic": "بُلْغَارُ الوَبْرِ وَالقِبْلَة"
+      },
+      "centralAsia": {
+        "name": "Mawara'an-Nahr (Samarcande, Boukhara)",
+        "arabic": "مَا وَرَاءَ النَّهْر"
+      },
+      "hindustan": {
+        "name": "Hind (Pakistan, Inde)",
+        "arabic": "الهِنْد"
       }
     }
   },

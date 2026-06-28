@@ -8,9 +8,21 @@ import ruPages from '../locales/content/ru-pages.json';
 import arPages from '../locales/content/ar-pages.json';
 import frPages from '../locales/content/fr-pages.json';
 
-const mergeLocale = (base, pagesContent) => ({
+import ruSahabah from '../locales/content/ru-sahabah.json';
+import arSahabah from '../locales/content/ar-sahabah.json';
+import frSahabah from '../locales/content/fr-sahabah.json';
+
+const mergeLocale = (base, pagesContent, sahabahContent) => ({
   ...base,
   pages: pagesContent.pages,
+  sahabahPage: {
+    ...base.sahabahPage,
+    ...sahabahContent.sahabahPage,
+    caliphs: {
+      ...base.sahabahPage?.caliphs,
+      ...sahabahContent.sahabahPage?.caliphs,
+    },
+  },
 });
 
 export const RTL_LANGUAGES = ['ar'];
@@ -27,9 +39,9 @@ i18n
   .use(initReactI18next)
   .init({
     resources: {
-      ru: { translation: mergeLocale(ru, ruPages) },
-      ar: { translation: mergeLocale(ar, arPages) },
-      fr: { translation: mergeLocale(fr, frPages) },
+      ru: { translation: mergeLocale(ru, ruPages, ruSahabah) },
+      ar: { translation: mergeLocale(ar, arPages, arSahabah) },
+      fr: { translation: mergeLocale(fr, frPages, frSahabah) },
     },
     fallbackLng: 'ru',
     supportedLngs: ['ru', 'ar', 'fr'],

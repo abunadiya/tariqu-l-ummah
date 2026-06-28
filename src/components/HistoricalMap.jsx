@@ -59,8 +59,8 @@ const HistoricalMap = () => {
 
   const projectionConfig = useMemo(
     () => ({
-      scale: 145,
-      center: [15, 18],
+      scale: 108,
+      center: [42, 22],
     }),
     [],
   );
