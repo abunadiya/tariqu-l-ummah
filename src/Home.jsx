@@ -123,12 +123,6 @@ const Home = () => {
               имам аз-Захаби — «Тарих аль-Ислам» и «Сияр а&apos;лям ан-нубала»
             </li>
           </ul>
-          <p className="text-muted small mt-4 mb-0 lh-base visual-ethics-note">
-            <i className="bi bi-shield-check me-1 text-emerald" aria-hidden="true" />
-            Визуальная этика: допускаются исторические силуэты (воины, пустынные путники) только
-            с полностью закрытым тканью лицом, без прорисовки глаз и черт. Изображения пророков
-            исключены.
-          </p>
         </section>
       </main>
     </SiteLayout>
