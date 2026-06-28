@@ -468,3 +468,127 @@ body {
   color: var(--emerald);
   font-size: 1.05rem;
 }
+
+.site-logo {
+  object-fit: cover;
+  border: 2px solid rgba(212, 168, 75, 0.45);
+  flex-shrink: 0;
+}
+
+.language-switcher-btn {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  color: rgba(255, 255, 255, 0.85);
+  padding: 0.15rem 0.55rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  border-radius: 0.35rem;
+}
+
+.language-switcher-btn.active,
+.language-switcher-btn:hover {
+  background: rgba(212, 168, 75, 0.2);
+  border-color: rgba(212, 168, 75, 0.55);
+  color: #fff;
+}
+
+.path-card--featured {
+  border: 2px solid rgba(13, 92, 75, 0.35) !important;
+  box-shadow: 0 12px 28px rgba(13, 92, 75, 0.12) !important;
+}
+
+.historical-map-card {
+  background: var(--paper-card);
+  border: 1px solid rgba(13, 92, 75, 0.14);
+}
+
+.historical-map-wrap {
+  max-width: 900px;
+}
+
+.historical-map-ocean {
+  fill: #d8ebe6;
+}
+
+.historical-map-land {
+  fill: #eef5f1;
+  stroke: rgba(13, 92, 75, 0.12);
+}
+
+.historical-map-region {
+  fill: rgba(13, 92, 75, 0.28);
+  stroke: rgba(13, 92, 75, 0.55);
+  stroke-width: 1.5;
+  cursor: pointer;
+  transition: fill 0.2s ease;
+}
+
+.historical-map-region:hover,
+.historical-map-region.is-active,
+.historical-map-region:focus {
+  fill: rgba(184, 134, 11, 0.55);
+  outline: none;
+}
+
+.historical-map-tooltip {
+  position: absolute;
+  transform: translate(-50%, calc(-100% - 12px));
+  background: rgba(15, 45, 38, 0.94);
+  color: #fff;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 2;
+  font-size: 0.85rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.historical-map-tooltip-ar {
+  font-family: var(--heading);
+  direction: rtl;
+}
+
+.historical-map-tooltip-local {
+  opacity: 0.85;
+  font-size: 0.78rem;
+}
+
+[dir='rtl'] .page-hero {
+  border-left: none !important;
+  border-right: 5px solid var(--emerald-light);
+}
+
+[dir='rtl'] .decline-reflection-body {
+  padding: 0 1rem 0 0;
+  border-left: none;
+  border-right: 3px solid rgba(184, 134, 11, 0.45);
+}
+
+[dir='rtl'] .path-brand {
+  flex-direction: row-reverse;
+}
+
+[dir='rtl'] .arrow-inline.bi-arrow-right::before {
+  transform: scaleX(-1);
+}
+
+[dir='rtl'] .me-2 {
+  margin-left: 0.5rem !important;
+  margin-right: 0 !important;
+}
+
+[dir='rtl'] .ms-2 {
+  margin-right: 0.5rem !important;
+  margin-left: 0 !important;
+}
+
+[dir='rtl'] .text-md-start {
+  text-align: right !important;
+}
+
+[dir='rtl'] .methodology-sources {
+  padding-right: 1.25rem;
+  padding-left: 0;
+}

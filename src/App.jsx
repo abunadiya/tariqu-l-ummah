@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Home.jsx';
+import Sahabah from './pages/Sahabah.jsx';
 import RighteousCaliphate from './pages/RighteousCaliphate.jsx';
 import Omayyads from './pages/Omayyads.jsx';
 import Abbasids from './pages/Abbasids.jsx';
@@ -13,6 +14,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/sahabah" element={<Sahabah />} />
         <Route path="/righteous" element={<RighteousCaliphate />} />
         <Route path="/omayyads" element={<Omayyads />} />
         <Route path="/abbasids" element={<Abbasids />} />

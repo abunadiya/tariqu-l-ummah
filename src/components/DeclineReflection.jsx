@@ -1,11 +1,16 @@
 import SourceVerification from './SourceVerification';
+import { useTranslation } from 'react-i18next';
 
 const DeclineReflection = ({
-  title = 'Анализ причин упадка',
+  title,
   waqfeyaId,
   russianText,
   children,
-}) => (
+}) => {
+  const { t } = useTranslation();
+  const heading = title ?? t('decline.defaultTitle', { defaultValue: 'Анализ причин упадка' });
+
+  return (
   <aside className="decline-reflection rounded-4 shadow-sm mt-5" aria-labelledby="decline-reflection-heading">
     <div className="decline-reflection-header d-flex align-items-start gap-3 mb-3">
       <span className="decline-reflection-icon flex-shrink-0" aria-hidden="true">
@@ -13,9 +18,9 @@ const DeclineReflection = ({
       </span>
       <div>
         <h2 id="decline-reflection-heading" className="h5 fw-bold text-emerald mb-1">
-          {title}
+          {heading}
         </h2>
-        <p className="text-muted small mb-0">Итоговое размышление</p>
+        <p className="text-muted small mb-0">{t('decline.subtitle')}</p>
       </div>
     </div>
 
@@ -31,6 +36,7 @@ const DeclineReflection = ({
       />
     )}
   </aside>
-);
+  );
+};
 
 export default DeclineReflection;

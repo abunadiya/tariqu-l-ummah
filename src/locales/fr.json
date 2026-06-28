@@ -1,0 +1,177 @@
+{
+  "site": {
+    "title": "La Voie de l'Ommah: Héritage et Épreuves",
+    "subtitle": "Chronique de la civilisation musulmane : des origines à la réflexion sur les leçons du passé, en s'appuyant sur les œuvres des historiens sunnites classiques.",
+    "heroBadge": "طريق الأمة · Tariqu-l-ummah",
+    "footer": "© 2026 طريق الأمة | Tariqu-l-ummah. La vérité demeure toujours avec le Tawhid."
+  },
+  "nav": {
+    "language": "Choix de la langue"
+  },
+  "common": {
+    "backHome": "Retour à l'accueil",
+    "exploreEpoch": "Explorer l'époque",
+    "relatedChapters": "Chapitres liés",
+    "relatedChaptersHint": "Poursuivez la Voie de l'Ommah à travers les chapitres voisins — époques et régions de son histoire.",
+    "relatedChaptersAria": "Chapitres liés de la Voie de l'Ommah"
+  },
+  "home": {
+    "milestonesTitle": "Principales étapes de la Voie de l'Ommah",
+    "milestonesIntro": "Choisissez une époque ou une région pour approfondir. Chaque chapitre contient un texte académique, des dates doubles et la vérification des sources primaires.",
+    "chronoTitle": "Chronologie",
+    "chronoIntro": "Trois époques clés rythment la Voie de l'Ommah : fondation, expansion et maturité du monde islamique.",
+    "methodologyTitle": "À propos de la méthodologie de la Voie de l'Ommah",
+    "methodologyBody": "La Voie de l'Ommah (Tariqu-l-ummah) est une chronique de la civilisation musulmane, visant à purifier les récits historiques des distorsions et s'appuyant sur les œuvres des historiens sunnites reconnus. Les décisions politiques du passé sont évaluées à la lumière de la aqida pure et des fatwas des savants de leur temps.",
+    "sources": {
+      "tabari": "imam at-Tabari — « Tarikh » (Histoire des prophètes et des rois)",
+      "ibnKathir": "Ibn Kathir — « Al-Bidaya wa-n-Nihaya »",
+      "ibnAthir": "Ibn al-Athir — « Al-Kamil fi-t-Tarikh »",
+      "dhahabi": "imam adh-Dhahabi — « Tarikh al-Islam » et « Siyar a'lam an-nubala »"
+    }
+  },
+  "map": {
+    "title": "Carte interactive de l'expansion de l'Islam",
+    "hint": "Survolez une région pour voir son nom. Cliquez pour accéder au chapitre correspondant.",
+    "regions": {
+      "hijaz": {
+        "name": "Hijaz / Péninsule arabique",
+        "arabic": "الحِجَاز / شِبْهُ الجَزِيرَةِ العَرَبِيَّة"
+      },
+      "sham": {
+        "name": "Sham (Syrie, Jordanie, Palestine)",
+        "arabic": "الشَّام"
+      },
+      "egyptMaghreb": {
+        "name": "Égypte et Maghreb",
+        "arabic": "مِصْر وَالمَغْرِب"
+      },
+      "mesopotamia": {
+        "name": "Mésopotamie et Perse",
+        "arabic": "بِلَادُ الرَّافِدَيْنِ وَفَارِس"
+      },
+      "andalusia": {
+        "name": "Andalousie (Espagne)",
+        "arabic": "الأَنْدَلُس"
+      }
+    }
+  },
+  "chapters": {
+    "sahabah": {
+      "title": "Époque des Compagnons (Sahaba)",
+      "period": "Époque du Prophète ﷺ — 41 H. / VIIe siècle",
+      "description": "Chapitre fondateur de la Voie de l'Ommah : les Compagnons ont reçu l'étendard de l'Islam du Prophète ﷺ et ont porté la religion aux quatre coins du monde. Ici commence la transmission du Coran, de la Sunna et du modèle de service d'Allah.",
+      "related": {
+        "righteous": "Les quatre Califes bien guidés ont poursuivi l'œuvre des sahaba dans la gouvernance de l'Ommah.",
+        "omayyads": "Les Omeyyades élargirent l'espace ouvert par les premières générations.",
+        "caucasus": "Les frontières du nord furent touchées dès l'époque des Compagnons."
+      }
+    },
+    "righteous": {
+      "title": "Époque du Califat bien guidé",
+      "period": "11–41 H. / 632–661",
+      "description": "Chapitre consacré aux années d'Abu Bakr, Umar, Uthman et Ali : rassemblement de l'Ommah, préservation du Coran et modèle de gouvernance auquel les générations ultérieures ont toujours referé.",
+      "related": {
+        "omayyads": "Suite de l'histoire politique après la shura et les premières troubles.",
+        "caucasus": "Les premières campagnes vers le nord dans un contexte régional.",
+        "abbasids": "Les dynasties ultérieures se mesuraient au modèle du califat bien guidé."
+      }
+    },
+    "omayyads": {
+      "title": "Califat omeyyade",
+      "period": "41–132 H. / 661–750",
+      "description": "Étude d'une époque où Damas devint le centre politique et où l'Islam s'étendit du Maghreb au Mawara'an-Nahr.",
+      "related": {
+        "righteous": "Utile de commencer par la base : la fin du califat bien guidé et l'ordre nouveau.",
+        "andalusia": "La continuité omeyyade à l'ouest à travers Cordoue et l'Andalousie.",
+        "centralAsia": "L'apogée des conquêtes orientales et l'islamisation du Mawara'an-Nahr."
+      }
+    },
+    "abbasids": {
+      "title": "Califat abbasside",
+      "period": "132–656 H. / 750–1258",
+      "description": "Chapitre sur le déplacement du centre islamique vers l'Irak, la construction de Bagdad et la transformation du califat en espace de science et de droit.",
+      "related": {
+        "omayyads": "Le tournant politique est plus clair après la période omeyyade tardive.",
+        "centralAsia": "Les savants du Mawara'an-Nahr furent un pilier du monde abbasside.",
+        "crimea": "Des régions musulmanes d'Europe orientale héritèrent de la tradition savante."
+      }
+    },
+    "caucasus": {
+      "title": "Islam au Caucase du Nord",
+      "period": "De l'époque des sahaba à la guerre du Caucase",
+      "description": "Chapitre retraçant l'Islam à Derbent et aux frontières nordiques, des premiers traités des sahaba au renforcement omeyyade.",
+      "related": {
+        "righteous": "Sous les califes bien guidés commencèrent les traités et campagnes vers le nord.",
+        "omayyads": "Les campagnes omeyyades firent du Caucase une frontière spirituelle et militaire.",
+        "crimea": "Deux régions ayant connu la pression impériale tout en préservant l'identité islamique."
+      }
+    },
+    "centralAsia": {
+      "title": "Islam en Asie centrale",
+      "period": "Du Mawara'an-Nahr au partage colonial",
+      "description": "Histoire de la libération du Mawara'an-Nahr, de l'enracinement du savoir sunnite et des centres de hadith et fiqh à Samarcande et Boukhara.",
+      "related": {
+        "omayyads": "Les débuts avec les conquêtes omeyyades et la libération des villes.",
+        "abbasids": "L'essor savant du Mawara'an-Nahr est lié à l'époque abbasside.",
+        "crimea": "Conséquences du partage impérial et pression sur les sociétés musulmanes."
+      }
+    },
+    "andalusia": {
+      "title": "Califat andalou",
+      "period": "138–897 H. / 756–1492",
+      "description": "Chapitre sur la continuité omeyyade à l'ouest : Abd ar-Rahman ad-Dakhil, Cordoue et la défense de la terre sunnite.",
+      "related": {
+        "omayyads": "L'Andalousie naquit de l'héritage omeyyade et garda la mémoire de Damas.",
+        "abbasids": "Comparer Bagdad et Cordoue révèle deux centres de splendeur.",
+        "crimea": "Comment la faiblesse politique ouvre la voie à la perte des terres."
+      }
+    },
+    "crimea": {
+      "title": "Islam en Crimée et sur la Volga",
+      "period": "De la Horde d'Or aux annexions impériales",
+      "description": "Chapitre sur l'islamisation de la Crimée et de la Volga, les khanats, les medersas et les liens avec le monde sunnite.",
+      "related": {
+        "caucasus": "Crimée et Caucase : islam frontalier et résistance.",
+        "centralAsia": "Comparer avec le Turkestan montre les mécanismes de rupture coloniale.",
+        "abbasids": "Traditions savantes issues de l'héritage islamique classique."
+      }
+    }
+  },
+  "sahabahPage": {
+    "title": "Époque des Compagnons (Sahaba)",
+    "subtitle": "Fondement de la Voie de l'Ommah : ceux qui ont embrassé l'Islam du vivant du Prophète ﷺ et ont transmis la religion",
+    "intro": "Les Compagnons du Prophète Muhammad (paix et bénédiction sur lui) forment la première génération bénie de l'Ommah. Ils reçurent l'étendard de l'Islam du Prophète ﷺ, préservèrent le Coran et la Sunna, portèrent la religion dans diverses terres et laissèrent un modèle de fermeté, de savoir et de service d'Allah. Ce chapitre est consacré à leur héritage ; ci-dessous, la structure des quatre Califes bien guidés et une place pour d'autres récits authentiques.",
+    "caliphsHeading": "Les quatre Califes bien guidés",
+    "caliphs": {
+      "abuBakr": {
+        "title": "Abu Bakr as-Siddiq",
+        "placeholder": "Premier calife bien guidé, Compagnon proche. Il reçut l'étendard de l'Islam après le Prophète ﷺ, préserva l'unité de l'Ommah, la zakat et le Coran. Biographie authentique à paraître prochainement."
+      },
+      "umar": {
+        "title": "Umar ibn al-Khattab",
+        "placeholder": "Deuxième calife bien guidé, célèbre pour sa justice. Il élargit les frontières de l'Islam et posa les bases de l'administration. Sources vérifiées à ajouter."
+      },
+      "uthman": {
+        "title": "Uthman ibn Affan",
+        "placeholder": "Troisième calife, Dhu-n-Nurayn. Il unifia le mushaf pour toute l'Ommah et acheva la grande expansion. Textes et références suivront."
+      },
+      "ali": {
+        "title": "Ali ibn Abi Talib",
+        "placeholder": "Quatrième calife, cousin et gendre du Prophète ﷺ. Il lutta pour l'unité de l'Ommah et la légitimité du shari'a. Matériaux sur son savoir et son courage à venir."
+      }
+    },
+    "otherSahaba": {
+      "title": "Autres Compagnons",
+      "placeholder": "Au-delà des quatre Califes, des milliers de sahaba transmirent les hadiths, participèrent aux campagnes et portèrent l'Islam. Cette section sera enrichie de biographies fondées sur « Siyar a'lam an-nubala » et d'autres sources sunnites."
+    }
+  },
+  "source": {
+    "title": "Vérification des sources",
+    "button": "Texte original dans les sources arabes (Waqfeya.net)",
+    "russianPrefix": "Dans la langue actuelle :"
+  },
+  "decline": {
+    "defaultTitle": "Analyse des causes du déclin",
+    "subtitle": "Réflexion finale"
+  }
+}
