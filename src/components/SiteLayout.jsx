@@ -27,7 +27,12 @@ const SiteLayout = ({ children }) => {
           <span className="navbar-text d-none d-lg-inline text-white-50 small">
             {t('site.title')}
           </span>
-          <LanguageSwitcher />
+          <div className="d-flex align-items-center gap-2 ms-lg-3">
+            <Link className="nav-link text-white-50 small text-decoration-none path-nav-link" to="/library">
+              {t('nav.library')}
+            </Link>
+            <LanguageSwitcher />
+          </div>
         </div>
       </nav>
 

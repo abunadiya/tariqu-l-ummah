@@ -8,12 +8,14 @@ import NorthCaucasus from './pages/NorthCaucasus.jsx';
 import CentralAsia from './pages/CentralAsia.jsx';
 import Andalusia from './pages/Andalusia.jsx';
 import Crimea from './pages/Crimea.jsx';
+import Library from './pages/Library.jsx';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/library" element={<Library />} />
         <Route path="/sahabah" element={<Sahabah />} />
         <Route path="/righteous" element={<RighteousCaliphate />} />
         <Route path="/omayyads" element={<Omayyads />} />

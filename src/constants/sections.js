@@ -1,23 +1,10 @@
 import { SECTION_ICONS as I } from './sectionIcons';
 
-export const MAP_REGIONS = [
-  { id: 'hijaz', chapterId: 'sahabah' },
-  { id: 'sham', chapterId: 'righteous' },
-  { id: 'maghrebEgypt', chapterId: 'omayyads' },
-  { id: 'mesopotamia', chapterId: 'abbasids' },
-  { id: 'andalusia', chapterId: 'andalusia' },
-  { id: 'caucasus', chapterId: 'caucasus' },
-  { id: 'volga', chapterId: 'crimea' },
-  { id: 'centralAsia', chapterId: 'centralAsia' },
-  { id: 'hindustan', chapterId: 'omayyads' },
-];
-
 export const PATH_CHAPTERS = [
   {
     id: 'sahabah',
     to: '/sahabah',
     icon: I.shield,
-    mapRegion: 'hijaz',
     featured: true,
     related: [
       { to: '/righteous', hintKey: 'righteous' },
@@ -29,7 +16,6 @@ export const PATH_CHAPTERS = [
     id: 'righteous',
     to: '/righteous',
     icon: I.book,
-    mapRegion: 'sham',
     related: [
       { to: '/omayyads', hintKey: 'omayyads' },
       { to: '/caucasus', hintKey: 'caucasus' },
@@ -40,7 +26,6 @@ export const PATH_CHAPTERS = [
     id: 'omayyads',
     to: '/omayyads',
     icon: I.shield,
-    mapRegion: 'maghrebEgypt',
     related: [
       { to: '/righteous', hintKey: 'righteous' },
       { to: '/andalusia', hintKey: 'andalusia' },
@@ -51,7 +36,6 @@ export const PATH_CHAPTERS = [
     id: 'abbasids',
     to: '/abbasids',
     icon: I.architecture,
-    mapRegion: 'mesopotamia',
     related: [
       { to: '/omayyads', hintKey: 'omayyads' },
       { to: '/central-asia', hintKey: 'centralAsia' },
@@ -62,7 +46,6 @@ export const PATH_CHAPTERS = [
     id: 'caucasus',
     to: '/caucasus',
     icon: I.shieldOutline,
-    mapRegion: 'caucasus',
     related: [
       { to: '/omayyads', hintKey: 'omayyads' },
       { to: '/abbasids', hintKey: 'abbasids' },
@@ -73,7 +56,6 @@ export const PATH_CHAPTERS = [
     id: 'centralAsia',
     to: '/central-asia',
     icon: I.manuscript,
-    mapRegion: 'centralAsia',
     related: [
       { to: '/omayyads', hintKey: 'omayyads' },
       { to: '/abbasids', hintKey: 'abbasids' },
@@ -84,7 +66,6 @@ export const PATH_CHAPTERS = [
     id: 'andalusia',
     to: '/andalusia',
     icon: I.mosque,
-    mapRegion: 'andalusia',
     related: [
       { to: '/omayyads', hintKey: 'omayyads' },
       { to: '/abbasids', hintKey: 'abbasids' },
@@ -95,7 +76,6 @@ export const PATH_CHAPTERS = [
     id: 'crimea',
     to: '/crimea',
     icon: I.crescent,
-    mapRegion: 'volga',
     related: [
       { to: '/caucasus', hintKey: 'caucasus' },
       { to: '/central-asia', hintKey: 'centralAsia' },

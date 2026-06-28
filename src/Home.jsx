@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SiteLayout from './components/SiteLayout';
-import HistoricalMap from './components/HistoricalMap';
 import { PATH_CHAPTERS, getRelatedChapters } from './constants/sections';
 import { useChapterTranslation } from './hooks/useChapterTranslation';
 
@@ -81,8 +80,6 @@ const Home = () => {
           <p className="hero-lead">{t('site.subtitle')}</p>
         </div>
       </header>
-
-      <HistoricalMap />
 
       <main className="container py-5">
         <div className="text-center mb-5">
