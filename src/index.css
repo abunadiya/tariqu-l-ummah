@@ -793,6 +793,11 @@ body {
   max-width: 820px;
 }
 
+.sahaba-disclaimer {
+  background: rgba(248, 249, 250, 0.85);
+  border-color: rgba(13, 92, 75, 0.12) !important;
+}
+
 .sahaba-mukhirs {
   background: linear-gradient(135deg, rgba(13, 92, 75, 0.06) 0%, rgba(212, 168, 75, 0.08) 100%);
   border: 1px solid rgba(13, 92, 75, 0.14);

@@ -1,5 +1,89 @@
 {
   "sahabahPage": {
+    "disclaimer": {
+      "text": "Avis important : Ce projet est amateur et en tout début de développement. L'auteur du site ne prétend pas à une infallibilité académique. Si des inexactitudes ou des erreurs sont découvertes dans les matériaux historiques ou la chronologie, il s'agit uniquement d'une négligence et d'une omission de l'auteur du site — qu'Allah me pardonne. Le projet continuera à se développer, à être corrigé et enrichi de nouveaux chapitres ainsi que d'histoires détaillées sur les compagnons et les époques islamiques."
+    },
+    "biographiesHeading": "Biographies et histoires des Compagnons",
+    "biographiesIntro": "Après les principes généraux sur la dignité de la compagnie du Prophète ﷺ, voici de brèves notices sur les Califes bien guidés et les grands transmetteurs de hadiths — du cadre théorique aux personnalités historiques concrètes.",
+    "caliphsHeading": "Les quatre Califes bien guidés",
+    "caliphs": {
+      "abuBakr": {
+        "title": "Abou Bakr as-Siddiq (رَضِيَ اللَّهُ عَنْهُ)",
+        "paragraphs": [
+          "Premier calife bien guidé, Compagnon le plus proche et beau-père du Prophète ﷺ. Abou Bakr (رَضِيَ اللَّهُ عَنْهُ) fut le premier homme à embrasser l'islam après Khadija, accompagna le Prophète ﷺ lors de l'hégire et reçut le titre « as-Siddiq » — celui qui confirme la vérité. Après le décès du Prophète ﷺ, il préserva l'unité de l'Ommah, réprima les guerres de la Ridda, initia la compilation du Coran en un livre unique et envoya les armées pour continuer la propagation de l'islam."
+        ]
+      },
+      "umar": {
+        "title": "Omar ibn al-Khattab (رَضِيَ اللَّهُ عَنْهُ)",
+        "paragraphs": [
+          "Deuxième calife bien guidé, célèbre pour sa justice et sa fermeté dans la vérité. Omar ibn al-Khattab (رَضِيَ اللَّهُ عَنْهُ) embrassa l'islam dans une période de forte persécution, élargit les frontières de l'islam, posa les bases de l'administration de l'État et laissa un modèle de gouvernance conforme à la charia. Adh-Dhahabi et d'autres historiens l'appellent « al-Faruq » — celui qui distingue le vrai du faux."
+        ]
+      },
+      "uthman": {
+        "title": "Othman ibn Affan (رَضِيَ اللَّهُ عَنْهُ)",
+        "paragraphs": [
+          "Troisième calife bien guidé, « Dhu-n-Nurayn », lié au Prophète ﷺ par des liens de parenté. Othman ibn Affan (رَضِيَ اللَّهُ عَنْهُ) standardisa le mushaf unique pour toute l'Ommah, poursuivit la grande expansion de l'État et dépensa généreusement ses biens pour la cause d'Allah. Son règne fut une période de stabilité et de préservation de la Sunna pour les générations suivantes."
+        ]
+      },
+      "ali": {
+        "title": "Ali ibn Abi Talib (رَضِيَ اللَّهُ عَنْهُ)",
+        "paragraphs": [
+          "Quatrième calife bien guidé, cousin et gendre du Prophète ﷺ, élevé dans sa maison dès l'enfance. Ali ibn Abi Talib (رَضِيَ اللَّهُ عَنْهُ) était réputé pour sa profonde connaissance du Coran et du fiqh, son courage au combat et son attachement à la justice. Les imams du hadith et les historiens le transmettent comme l'un des plus grands porteurs de savoir parmi les Compagnons."
+        ]
+      }
+    },
+    "mukhirs": {
+      "heading": "Les sept grands transmetteurs de hadiths",
+      "intro": "Ces sept compagnons ont transmis le plus grand nombre de hadiths du Prophète ﷺ et sont devenus les piliers de toute la science du hadith dans les générations suivantes. Leurs biographies figurent dans « Siyar a'lam an-nubala » de l'imam adh-Dhahabi et dans « Tarikh al-Islam ».",
+      "transmitters": {
+        "abuHurayra": {
+          "title": "Abou Hourayra (رَضِيَ اللَّهُ عَنْهُ)",
+          "paragraphs": [
+            "Abd ar-Rahman ibn Sakhr ad-Dawsi, connu sous le nom d'Abou Hourayra (رَضِيَ اللَّهُ عَنْهُ) (« le père du chaton »), embrassa l'islam en 7 H. et passa environ trois ans auprès du Prophète ﷺ, mais transmit plus de hadiths que tout autre compagnon — environ 5374 selon le décompte de l'imam al-Bukhari et d'autres muhaddithin. Adh-Dhahabi explique cela par sa mémoire exceptionnelle, sa présence constante auprès du Prophète ﷺ et son zèle à retenir chaque parole. Il servit le Prophète ﷺ, puis consacra sa vie à transmettre la Sunna à Médine, au Cham et à Bahreïn."
+          ]
+        },
+        "ibnUmar": {
+          "title": "Abd Allah ibn Omar (رَضِيَ اللَّهُ عَنْهُ)",
+          "paragraphs": [
+            "Fils du deuxième calife, il embrassa l'islam dans son enfance et grandit auprès du Prophète ﷺ. Abd Allah ibn Omar (رَضِيَ اللَّهُ عَنْهُ) était célèbre pour son attachement scrupuleux à chaque geste du Prophète ﷺ, jusque dans les détails de la vie quotidienne et de la prière. Adh-Dhahabi écrit qu'il n'introduisait aucune innovation et qu'il était considéré comme un modèle de suivi fidèle (ittiba). Il transmit plus de 2600 hadiths, dont beaucoup décrivent en détail la Sunna du Prophète ﷺ."
+          ]
+        },
+        "anasIbnMalik": {
+          "title": "Anas ibn Malik (رَضِيَ اللَّهُ عَنْهُ)",
+          "paragraphs": [
+            "Ansari de Médine, il servit le Prophète ﷺ pendant dix ans à partir de l'âge de neuf ans, dès l'arrivée du Prophète ﷺ à Médine. Nul ne connaissait mieux que Anas ibn Malik (رَضِيَ اللَّهُ عَنْهُ) la vie quotidienne du Prophète ﷺ : il transmit de précieux détails sur ses habitudes, son étiquette, son culte et ses relations familiales. Les imams al-Bukhari et Muslim inclurent un grand nombre de ses hadiths dans leurs « Sahih ». Adh-Dhahabi l'appelle « le serviteur du Messager ﷺ »."
+          ]
+        },
+        "aisha": {
+          "title": "Aicha bint Abou Bakr (رَضِيَ اللَّهُ عَنْهَا)",
+          "paragraphs": [
+            "Mère des croyants, épouse du Prophète ﷺ et fille du premier calife. Le Prophète ﷺ fut enterré dans sa chambre — signe de sa place éminente. Aicha (رَضِيَ اللَّهُ عَنْهَا) enseigna aux compagnons et aux tabi'in les questions les plus subtiles du fiqh, de la vie familiale du Prophète ﷺ, de l'héritage et du culte. L'imam ach-Chafi'i dit : « Si nous avons reçu un hadith sur la vie domestique, il vient d'Aicha. » Elle transmit plus de 2200 hadiths ; adh-Dhahabi la considère comme l'une des plus grandes juristes parmi les femmes de l'Ommah."
+          ]
+        },
+        "ibnAbbas": {
+          "title": "Abd Allah ibn Abbas (رَضِيَ اللَّهُ عَنْهُ)",
+          "paragraphs": [
+            "Cousin du Prophète ﷺ, « commentateur du Coran » (habr al-umma). Le Prophète ﷺ l'embrassa et invoqua pour lui : « Ô Allah, accorde-lui la compréhension de la religion et enseigne-lui l'interprétation du Livre. » Abd Allah ibn Abbas (رَضِيَ اللَّهُ عَنْهُ) devint une autorité en tafsir, en fiqh et en hadith ; les compagnons s'adressaient à lui pour l'explication des versets. Adh-Dhahabi le décrit comme « une mer inépuisable » de savoir. Il transmit plus de 1600 hadiths."
+          ]
+        },
+        "jabir": {
+          "title": "Jabir ibn Abd Allah (رَضِيَ اللَّهُ عَنْهُ)",
+          "paragraphs": [
+            "Ansari, il participa à de nombreuses expéditions avec le Prophète ﷺ. Jabir ibn Abd Allah (رَضِيَ اللَّهُ عَنْهُ) composa l'un des premiers recueils écrits de hadiths (« Sahifa Jabir »). Il est célèbre pour avoir entrepris un voyage d'un mois de Médine au Cham et retour pour un seul hadith — telle était la rigueur des premières générations dans la préservation de la Sunna. Ibn Kathir et adh-Dhahabi le citent comme exemple d'effort sincère dans la quête du savoir. Il transmit plus de 1500 hadiths."
+          ]
+        },
+        "abuSaeed": {
+          "title": "Abou Sa'id al-Khudri (رَضِيَ اللَّهُ عَنْهُ)",
+          "paragraphs": [
+            "L'un des grands savants parmi les ansar de Médine, il embrassa l'islam dans sa jeunesse et passa beaucoup de temps dans le cercle du Prophète ﷺ. Abou Sa'id al-Khudri (رَضِيَ اللَّهُ عَنْهُ) se distingua dans la transmission des hadiths sur le culte, l'étiquette et les événements de la dernière période médinoise. L'imam Ahmad inclut un grand nombre de ses hadiths dans le « Musnad ». Adh-Dhahabi l'appelle « le juriste des Ansar ». Il transmit plus de 1100 hadiths."
+          ]
+        }
+      }
+    },
+    "otherSahaba": {
+      "title": "Autres compagnons",
+      "placeholder": "Outre les sept grands transmetteurs, des milliers de compagnons ont transmis des hadiths, participé aux expéditions et servi de modèle aux tabi'in. Leurs biographies figurent dans « Siyar a'lam an-nubala » de l'imam adh-Dhahabi, « Al-Isaba fi tamyiz as-Sahaba » d'Ibn Hajar et d'autres ouvrages sunnites."
+    },
     "content": {
       "intro": "Les Compagnons du Prophète Muhammad ﷺ ont transmis au mieux la lumière et la voie droite qu'Allah a fait descendre par l'intermédiaire du Prophète, paix et bénédiction sur lui, en transmettant la science aux générations suivantes. Ils ont reçu une récompense élevée pour leur aide au Prophète, leur combat à ses côtés sur le sentier d'Allah et leur immense contribution à la diffusion de l'Islam.",
       "sourceAttribution": "Source du matériel : Bibliothèque Daura.com",
