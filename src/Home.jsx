@@ -65,6 +65,8 @@ const ChronologyCard = ({ chapter }) => {
 
 const Home = () => {
   const { t } = useTranslation();
+  const prefaceParagraphs = t('home.authorPreface.paragraphs', { returnObjects: true });
+  const prefaceList = Array.isArray(prefaceParagraphs) ? prefaceParagraphs : [];
 
   const chronologyChapters = chronologyIds
     .map((id) => PATH_CHAPTERS.find((chapter) => chapter.id === id))
@@ -81,6 +83,29 @@ const Home = () => {
       </header>
 
       <div className="container py-5">
+        <section className="author-preface-block rounded-4 p-4 p-md-5 shadow-sm mb-5" aria-labelledby="author-preface-title">
+          <div className="author-preface-header d-flex align-items-start gap-3 mb-4 pb-3 border-bottom border-emerald-subtle">
+            <span className="author-preface-icon flex-shrink-0" aria-hidden="true">
+              <i className="bi bi-feather" />
+            </span>
+            <div>
+              <h2 id="author-preface-title" className="h4 fw-bold text-emerald mb-0 lh-base">
+                {t('home.authorPreface.title')}
+              </h2>
+            </div>
+          </div>
+          <div className="author-preface-body">
+            {prefaceList.map((paragraph, index) => (
+              <p
+                key={index}
+                className={`text-muted lh-lg ${index === prefaceList.length - 1 ? 'mb-0' : 'mb-4'}`}
+              >
+                {paragraph}
+              </p>
+            ))}
+          </div>
+        </section>
+
         <div className="text-center mb-5">
           <h2 className="section-intro fw-bold mb-2 pb-2 border-bottom border-emerald-subtle d-inline-block">
             {t('home.milestonesTitle')}
