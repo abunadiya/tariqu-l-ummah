@@ -7,7 +7,10 @@
   },
   "nav": {
     "language": "Choix de la langue",
-    "library": "Bibliothèque"
+    "library": "Bibliothèque",
+    "home": "Accueil",
+    "sahabah": "Compagnons",
+    "toggle": "Ouvrir le menu"
   },
   "common": {
     "backHome": "Retour à l'accueil",

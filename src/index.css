@@ -33,8 +33,124 @@ body {
 }
 
 .path-navbar {
-  background: var(--header-gradient) !important;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 100%;
+  z-index: 1050;
+  margin: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: var(--header-dark) !important;
+  background: linear-gradient(135deg, rgba(26, 35, 50, 0.98) 0%, rgba(13, 40, 24, 0.98) 100%) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-bottom: 3px solid var(--emerald-light);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+}
+
+.path-navbar-inner {
+  width: 100%;
+  max-width: 100%;
+}
+
+.path-navbar-toggler {
+  padding: 0.35rem 0.55rem;
+}
+
+.path-navbar-toggler:focus {
+  box-shadow: 0 0 0 0.2rem rgba(212, 168, 75, 0.35);
+}
+
+.path-navbar-nav {
+  width: 100%;
+}
+
+.path-mobile-nav-btn {
+  color: rgba(255, 255, 255, 0.92) !important;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.path-mobile-nav-btn:hover,
+.path-mobile-nav-btn:focus {
+  color: #fff !important;
+}
+
+.path-navbar-lang {
+  width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  .path-navbar .navbar-collapse {
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
+  }
+
+  .path-navbar-nav {
+    margin-bottom: 0.5rem;
+  }
+
+  .path-mobile-nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.85rem 1rem !important;
+    font-size: 1.05rem;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    background: rgba(255, 255, 255, 0.07);
+  }
+
+  .path-mobile-nav-btn:hover,
+  .path-mobile-nav-btn:focus {
+    background: rgba(212, 168, 75, 0.18);
+    border-color: rgba(212, 168, 75, 0.45);
+  }
+
+  .path-navbar-lang {
+    display: flex;
+    justify-content: center;
+    padding: 0.25rem 0 0.5rem;
+  }
+
+  .language-switcher--menu {
+    width: 100%;
+    justify-content: center;
+    gap: 0.5rem !important;
+  }
+
+  .language-switcher-btn--menu {
+    min-width: 4.5rem;
+    padding: 0.55rem 1rem !important;
+    font-size: 0.95rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .path-nav-link-desktop {
+    padding: 0.35rem 0.75rem !important;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.75) !important;
+    border: none;
+    background: transparent;
+  }
+
+  .path-nav-link-desktop:hover,
+  .path-nav-link-desktop:focus {
+    color: #fff !important;
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  .path-navbar-lang {
+    width: auto;
+  }
 }
 
 .path-footer {
