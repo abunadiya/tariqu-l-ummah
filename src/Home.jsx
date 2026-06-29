@@ -67,6 +67,8 @@ const Home = () => {
   const { t } = useTranslation();
   const prefaceParagraphs = t('home.authorPreface.paragraphs', { returnObjects: true });
   const prefaceList = Array.isArray(prefaceParagraphs) ? prefaceParagraphs : [];
+  const disclaimerParagraphs = t('home.authorPreface.disclaimer.paragraphs', { returnObjects: true });
+  const disclaimerList = Array.isArray(disclaimerParagraphs) ? disclaimerParagraphs : [];
 
   const chronologyChapters = chronologyIds
     .map((id) => PATH_CHAPTERS.find((chapter) => chapter.id === id))
@@ -104,6 +106,34 @@ const Home = () => {
               </p>
             ))}
           </div>
+
+          <aside className="author-preface-disclaimer card border-0 mt-4 mt-md-5" aria-labelledby="author-preface-disclaimer-title">
+            <div className="card-body p-4 p-md-5">
+              <h3 id="author-preface-disclaimer-title" className="h6 fw-bold text-secondary mb-3">
+                {t('home.authorPreface.disclaimer.title')}
+              </h3>
+              {disclaimerList.map((paragraph, index) => (
+                <p key={index} className="small text-muted lh-lg mb-3">
+                  {paragraph}
+                </p>
+              ))}
+              <p className="small text-muted lh-lg mb-3">
+                {t('home.authorPreface.disclaimer.contactBefore')}
+                <a
+                  href={t('footer.telegramUrl')}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-secondary"
+                >
+                  {t('home.authorPreface.disclaimer.contactLink')}
+                </a>
+                {t('home.authorPreface.disclaimer.contactAfter')}
+              </p>
+              <p className="author-preface-closing mb-0 text-end fs-6" lang="ar" dir="rtl">
+                {t('home.authorPreface.disclaimer.closing')}
+              </p>
+            </div>
+          </aside>
         </section>
 
         <div className="text-center mb-5">

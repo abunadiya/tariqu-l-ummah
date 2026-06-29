@@ -596,6 +596,16 @@ body {
   font-size: 1.05rem;
 }
 
+.author-preface-disclaimer {
+  background: rgba(248, 249, 250, 0.95);
+  border: 1px solid rgba(108, 117, 125, 0.18) !important;
+}
+
+.author-preface-closing {
+  color: var(--emerald);
+  letter-spacing: 0.02em;
+}
+
 .chrono-timeline {
   background: linear-gradient(180deg, rgba(13, 92, 75, 0.06) 0%, rgba(184, 134, 11, 0.06) 100%);
   border: 1px solid rgba(13, 92, 75, 0.15);
