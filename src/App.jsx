@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import SiteLayout from './components/SiteLayout';
 import Home from './Home.jsx';
 import Sahabah from './pages/Sahabah.jsx';
@@ -28,6 +29,7 @@ function App() {
           <Route path="/crimea" element={<Crimea />} />
         </Route>
       </Routes>
+      <Analytics />
     </BrowserRouter>
   );
 }
