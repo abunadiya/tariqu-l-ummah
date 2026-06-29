@@ -151,13 +151,8 @@
     }
   },
   "sahabahPage": {
-    "title": "Époque des Compagnons",
-    "subtitle": "Fondement de la Voie de l'Ommah : ceux qui ont embrassé l'Islam du vivant du Prophète ﷺ et ont transmis la religion",
-    "intro": "Les Compagnons du Prophète Muhammad (paix et bénédiction sur lui) forment la première génération bénie de l'Ommah. Ils reçurent l'étendard de l'Islam du Prophète ﷺ, préservèrent le Coran et la Sunna, portèrent la religion dans diverses terres et laissèrent un modèle de fermeté, de savoir et de service d'Allah. Ci-dessous, les biographies des sept grands transmetteurs de hadiths. Pour les quatre Califes bien guidés, voir le chapitre suivant « Époque du Califat bien guidé ».",
-    "otherSahaba": {
-      "title": "Autres compagnons",
-      "placeholder": "Au-delà des sept grands transmetteurs, des milliers de compagnons transmirent les hadiths, participèrent aux campagnes et portèrent l'Islam. Cette section sera enrichie de biographies fondées sur « Siyar a'lam an-nubala » et d'autres sources sunnites."
-    }
+    "title": "Compagnons du Prophète Muhammad ﷺ",
+    "subtitle": "La première génération bénie de l'Ommah : définition, mérites, amour pour eux et avertissement contre leur dénigrement"
   },
   "source": {
     "title": "Vérification des sources",

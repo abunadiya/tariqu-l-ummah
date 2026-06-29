@@ -1,55 +1,135 @@
 {
   "sahabahPage": {
-    "mukhirs": {
-      "heading": "Les sept grands transmetteurs de hadiths",
-      "intro": "Ces sept compagnons ont transmis le plus grand nombre de hadiths du Prophète ﷺ et sont devenus les piliers de toute la science du hadith dans les générations suivantes. Leurs biographies figurent dans « Siyar a'lam an-nubala » de l'imam adh-Dhahabi et dans « Tarikh al-Islam ».",
-      "transmitters": {
-        "abuHurayra": {
-          "title": "Abou Hourayra (رَضِيَ اللَّهُ عَنْهُ)",
-          "paragraphs": [
-            "Abd ar-Rahman ibn Sakhr ad-Dawsi, connu sous le nom d'Abou Hourayra (رَضِيَ اللَّهُ عَنْهُ) (« le père du chaton »), embrassa l'islam en 7 H. et passa environ trois ans auprès du Prophète ﷺ, mais transmit plus de hadiths que tout autre compagnon — environ 5374 selon le décompte de l'imam al-Bukhari et d'autres muhaddithin. Adh-Dhahabi explique cela par sa mémoire exceptionnelle, sa présence constante auprès du Prophète ﷺ et son zèle à retenir chaque parole. Il servit le Prophète ﷺ, puis consacra sa vie à transmettre la Sunna à Médine, au Cham et à Bahreïn."
-          ]
+    "content": {
+      "intro": "Les Compagnons du Prophète Muhammad ﷺ ont transmis au mieux la lumière et la voie droite qu'Allah a fait descendre par l'intermédiaire du Prophète, paix et bénédiction sur lui, en transmettant la science aux générations suivantes. Ils ont reçu une récompense élevée pour leur aide au Prophète, leur combat à ses côtés sur le sentier d'Allah et leur immense contribution à la diffusion de l'Islam.",
+      "sourceAttribution": "Source du matériel : Bibliothèque Daura.com",
+      "definition": {
+        "title": "Qui sont les Compagnons (sahaba) ?",
+        "paragraphs": [
+          "On considère comme Compagnon (en arabe : sahabi ou sahib, pluriel : sahaba) celui qui a vu le Prophète ﷺ en étant musulman et qui est mort sans renier la foi.",
+          "La compagnie du Prophète comporte deux sens : général et particulier. Au sens général, elle englobe tous ceux qui ont vu le Prophète ﷺ en étant croyants — d'où les expressions « compagnie d'un an », « compagnie d'un mois » ou « compagnie brève ». Au sens particulier, elle ne concerne que les Compagnons distingués par des mérites spéciaux qui les différencient des autres."
+        ]
+      },
+      "companionship": {
+        "title": "Le mérite de la compagnie du Prophète",
+        "paragraphs": [
+          "De nombreux savants ont souligné que quiconque est Compagnon du Prophète ﷺ est incontestablement supérieur à celui qui ne l'est pas, car par cette compagnie ils ont atteint un rang qu'aucun autre ne peut atteindre par la science ou par les œuvres."
+        ],
+        "ayah": {
+          "text": "« Les croyants et les croyantes sont alliés les uns des autres »",
+          "reference": "Sourate at-Tawba, verset 71"
         },
-        "ibnUmar": {
-          "title": "Abd Allah ibn Omar (رَضِيَ اللَّهُ عَنْهُ)",
-          "paragraphs": [
-            "Fils du deuxième calife, il embrassa l'islam dans son enfance et grandit auprès du Prophète ﷺ. Abd Allah ibn Omar (رَضِيَ اللَّهُ عَنْهُ) était célèbre pour son attachement scrupuleux à chaque geste du Prophète ﷺ, jusque dans les détails de la vie quotidienne et de la prière. Adh-Dhahabi écrit qu'il n'introduisait aucune innovation et qu'il était considéré comme un modèle de suivi fidèle (ittiba). Il transmit plus de 2600 hadiths, dont beaucoup décrivent en détail la Sunna du Prophète ﷺ."
-          ]
+        "afterAyah": [
+          "Si la foi des Compagnons ne suscite aucun doute, et s'ils sont les meilleurs croyants, comme en témoignent Allah et Son Messager, alors l'amour pour eux et leur soutien sont signes de foi chez celui qui les éprouve."
+        ]
+      },
+      "loveFaith": {
+        "title": "L'amour des Compagnons — signe de foi",
+        "intro": [],
+        "hadithAnas": {
+          "text": "Le Prophète ﷺ a dit : « L'amour pour les Ansar est un signe de foi, et la haine envers eux est un signe d'hypocrisie ».",
+          "source": "Sahih al-Bukhari, 17. Rapporté par Anas ibn Malik (رَضِيَ اللَّهُ عَنْهُ)"
         },
-        "anasIbnMalik": {
-          "title": "Anas ibn Malik (رَضِيَ اللَّهُ عَنْهُ)",
-          "paragraphs": [
-            "Ansari de Médine, il servit le Prophète ﷺ pendant dix ans à partir de l'âge de neuf ans, dès l'arrivée du Prophète ﷺ à Médine. Nul ne connaissait mieux que Anas ibn Malik (رَضِيَ اللَّهُ عَنْهُ) la vie quotidienne du Prophète ﷺ : il transmit de précieux détails sur ses habitudes, son étiquette, son culte et ses relations familiales. Les imams al-Bukhari et Muslim inclurent un grand nombre de ses hadiths dans leurs « Sahih ». Adh-Dhahabi l'appelle « le serviteur du Messager ﷺ »."
-          ]
+        "beforeVictory": [
+          "L'un des fruits de l'amour pour eux dans ce monde est la réussite et la victoire, car le Très-Haut a dit :"
+        ],
+        "victoryAyah": {
+          "arabic": "﴿ وَمَن يَتَوَلَّ اللَّهَ وَرَسُولَهُ وَالَّذِينَ آمَنُوا فَإِنَّ حِزْبَ اللَّهِ هُمُ الْغَالِبُونَ ﴾",
+          "text": "« Ceux qui prennent Allah, Son Messager et les croyants pour alliés — les partisans d'Allah seront les vainqueurs »",
+          "reference": "Sourate al-Ma'ida, verset 56"
         },
-        "aisha": {
-          "title": "Aicha bint Abou Bakr (رَضِيَ اللَّهُ عَنْهَا)",
-          "paragraphs": [
-            "Mère des croyants, épouse du Prophète ﷺ et fille du premier calife. Le Prophète ﷺ fut enterré dans sa chambre — signe de sa place éminente. Aicha (رَضِيَ اللَّهُ عَنْهَا) enseigna aux compagnons et aux tabi'in les questions les plus subtiles du fiqh, de la vie familiale du Prophète ﷺ, de l'héritage et du culte. L'imam ach-Chafi'i dit : « Si nous avons reçu un hadith sur la vie domestique, il vient d'Aicha. » Elle transmit plus de 2200 hadiths ; adh-Dhahabi la considère comme l'une des plus grandes juristes parmi les femmes de l'Ommah."
-          ]
+        "afterVictory": [
+          "Ibn Kathir écrivit : « Quiconque se satisfait de la proximité d'Allah, de Son Messager et des croyants obtiendra le succès et la victoire dans les deux mondes ».",
+          "Dans l'au-delà, celui qui a aimé les Compagnons sera rassemblé avec eux, comme le confirment les paroles du Prophète ﷺ."
+        ],
+        "hadithIbnMasud": {
+          "text": "Dans le hadith d'Abd Allah ibn Mas'ud (رَضِيَ اللَّهُ عَنْهُ), un homme demanda au Messager d'Allah ﷺ : « Peut-on aimer un peuple sans pouvoir les rejoindre ? » Il répondit : « L'homme sera avec ceux qu'il a aimés ».",
+          "source": "Sahih Muslim, 6168"
         },
-        "ibnAbbas": {
-          "title": "Abd Allah ibn Abbas (رَضِيَ اللَّهُ عَنْهُ)",
-          "paragraphs": [
-            "Cousin du Prophète ﷺ, « commentateur du Coran » (habr al-umma). Le Prophète ﷺ l'embrassa et invoqua pour lui : « Ô Allah, accorde-lui la compréhension de la religion et enseigne-lui l'interprétation du Livre. » Abd Allah ibn Abbas (رَضِيَ اللَّهُ عَنْهُ) devint une autorité en tafsir, en fiqh et en hadith ; les compagnons s'adressaient à lui pour l'explication des versets. Adh-Dhahabi le décrit comme « une mer inépuisable » de savoir. Il transmit plus de 1600 hadiths."
-          ]
+        "beforeHour": [
+          "Les Compagnons du Messager d'Allah ﷺ cherchaient à se rapprocher d'Allah par leur amour pour Abou Bakr (رَضِيَ اللَّهُ عَنْهُ) et Omar (رَضِيَ اللَّهُ عَنْهُ), considérant cela comme l'une des plus belles œuvres."
+        ],
+        "hadithHour": {
+          "text": "L'imam al-Bukhari rapporte le hadith d'Anas ibn Malik (رَضِيَ اللَّهُ عَنْهُ) : un homme demanda au Prophète ﷺ quand viendrait l'Heure. Il répondit : « Qu'as-tu préparé pour elle ? » L'homme dit : « Rien, si ce n'est que j'aime Allah et Son Messager ». Le Prophète ﷺ dit : « Tu seras avec ceux que tu as aimés ». Anas dit : « Rien ne nous a plus réjouis que ces paroles. J'aime Abou Bakr (رَضِيَ اللَّهُ عَنْهُ) et Omar (رَضِيَ اللَّهُ عَنْهُ) et j'espère être avec eux grâce à cet amour, bien que je n'aie pas accompli ce qu'ils ont accompli ».",
+          "source": "Sahih al-Bukhari, 3688"
         },
-        "jabir": {
-          "title": "Jabir ibn Abd Allah (رَضِيَ اللَّهُ عَنْهُ)",
-          "paragraphs": [
-            "Ansari, il participa à de nombreuses expéditions avec le Prophète ﷺ. Jabir ibn Abd Allah (رَضِيَ اللَّهُ عَنْهُ) composa l'un des premiers recueils écrits de hadiths (« Sahifa Jabir »). Il est célèbre pour avoir entrepris un voyage d'un mois de Médine au Cham et retour pour un seul hadith — telle était la rigueur des premières générations dans la préservation de la Sunna. Ibn Kathir et adh-Dhahabi le citent comme exemple d'effort sincère dans la quête du savoir. Il transmit plus de 1500 hadiths."
-          ]
+        "salafParagraphs": [
+          "Certains prétendent suivre la voie du Prophète ﷺ tout en introduisant dans la religion ce qu'Allah et Son Messager n'ont pas permis. Allah rejette cela, car Il a fait en sorte que la vérité et la croyance correcte (aqida) ne soient qu'avec les savants du hadith et la voie des salaf — transmise de génération en génération : des tabi'in, des Compagnons, du Messager d'Allah, paix et bénédiction sur lui."
+        ],
+        "salafSource": "Voir « al-Hudja », t. 2, p. 233",
+        "scholars": [
+          {
+            "text": "L'imam Abou Hanifa disait : « Si je dis quelque chose qui contredit le Livre d'Allah, laissez mes paroles et suivez le Livre d'Allah ». On lui demanda : « Et s'ils contredisent la parole du Messager d'Allah ﷺ ? » Il dit : « Laissez mes paroles et suivez le hadith du Messager d'Allah ﷺ ». On lui demanda encore : « Et s'ils contredisent les paroles de ses Compagnons ? » Il répondit : « Laissez mes paroles et suivez les paroles des Compagnons ».",
+            "source": "Voir « Fathul-Majid », p. 241"
+          },
+          {
+            "text": "L'imam al-Awza'i dit : « La science est ce qui est venu des Compagnons de Muhammad ﷺ ; ce qui ne vient pas d'au moins l'un d'eux n'est pas science ».",
+            "source": "Voir « Jami'ul-bayanil-'ilm », n° 1420"
+          }
+        ]
+      },
+      "scholars": [
+        {
+          "text": "L'imam Badr ad-Din az-Zarkashi, qu'Allah lui fasse miséricorde, dit : « La majorité des savants considèrent que le Compagnon (sahib) est celui qui a rencontré notre seigneur Muhammad ﷺ en étant croyant et a passé un certain temps en sa compagnie, même brièvement… Les ahlul-hadith donnent une définition plus large, fondée sur la haute dignité du Prophète ﷺ ».",
+          "source": "Voir « al-Bahr al-muhit », t. 4, p. 301, 349"
         },
-        "abuSaeed": {
-          "title": "Abou Sa'id al-Khudri (رَضِيَ اللَّهُ عَنْهُ)",
-          "paragraphs": [
-            "L'un des grands savants parmi les ansar de Médine, il embrassa l'islam dans sa jeunesse et passa beaucoup de temps dans le cercle du Prophète ﷺ. Abou Sa'id al-Khudri (رَضِيَ اللَّهُ عَنْهُ) se distingua dans la transmission des hadiths sur le culte, l'étiquette et les événements de la dernière période médinoise. L'imam Ahmad inclut un grand nombre de ses hadiths dans le « Musnad ». Adh-Dhahabi l'appelle « le juriste des Ansar ». Il transmit plus de 1100 hadiths."
-          ]
+        {
+          "text": "L'imam as-Subki dit : « Le Compagnon est quiconque a vu le Prophète ﷺ en étant musulman. Voir le Prophète ﷺ, ne serait-ce qu'un instant, laisse une empreinte dans le cœur et oriente vers la voie droite ».",
+          "source": "Voir « al-Ibtihaj fi sharh al-minhaj », t. 1, p. 15"
+        }
+      ],
+      "bestGeneration": {
+        "title": "La meilleure génération de l'humanité",
+        "paragraphs": [
+          "Les Compagnons furent la meilleure génération de l'humanité. Nous leur devons amour, satisfaction et reconnaissance de la haute place qu'Allah leur a accordée. Les injurier équivaut à injurier la religion entière.",
+          "Ils répandirent l'Islam dans le monde en moins d'un quart de siècle. Leur nombre total est de cent vingt-quatre mille. Le dernier d'entre eux à mourir fut Abou at-Tufayl Amir ibn Wathila al-Laythi (رَضِيَ اللَّهُ عَنْهُ), en l'an 100 (ou 110 selon d'autres) de l'Hégire, comme le rapporte l'imam Muslim."
+        ]
+      },
+      "merits": {
+        "title": "Les mérites des Compagnons",
+        "intro": [
+          "Allah a loué les Compagnons, S'est agréé d'eux et leur a promis la meilleure récompense."
+        ],
+        "ayat": [
+          {
+            "text": "« Allah agrée les premiers émigrés et les Ansar qui ont pris les devants, et ceux qui les ont suivis dans la bienveillance. Ils sont satisfaits d'Allah et Allah est satisfait d'eux. Il leur a préparé des Jardins sous lesquels coulent les rivières, pour y demeurer éternellement. C'est l'immense succès »",
+            "reference": "Sourate at-Tawba, verset 100"
+          },
+          {
+            "text": "« Allah agrée les croyants lorsqu'ils t'ont prêté serment sous l'arbre à Hudaybiyya »",
+            "reference": "Sourate al-Fath, verset 18"
+          },
+          {
+            "text": "« Et [Il agrée aussi] les pauvres émigrés… Et ceux qui, après eux, disent : Seigneur, pardonne-nous ainsi qu'à nos frères qui nous ont devancés dans la foi. Ne mets dans nos cœurs ni rancune ni haine envers les croyants »",
+            "reference": "Sourate al-Hashr, versets 8-10"
+          }
+        ],
+        "scholars": [
+          {
+            "text": "L'imam an-Nawawi, commentant ces versets, rapporte que l'imam Malik en a déduit que celui qui calomnie les Compagnons n'a pas droit au fay.",
+            "source": ""
+          },
+          {
+            "text": "Ibn Kathir dit que l'imam Malik a habilement déduit de ce verset que le rafidite qui calomnie les Compagnons n'a pas droit au fay.",
+            "source": ""
+          },
+          {
+            "text": "Ibn 'Allan ad-Dimashqi dit : « Celui qui devient Compagnon en voyant le Messager d'Allah ﷺ, ne serait-ce qu'une fois, est meilleur que quiconque viendra après lui ».",
+            "source": "Voir « Dalil al-falihin », t. 6, p. 358"
+          },
+          {
+            "text": "L'imam al-Qurtubi écrivit dans son tafsir que les premiers de cette communauté sont meilleurs que ceux qui vinrent après eux — opinion de la majorité des savants.",
+            "source": "Voir « at-Tafsir », t. 4, p. 171"
+          }
+        ]
+      },
+      "prohibition": {
+        "title": "Interdiction stricte d'injurier et de diminuer les Compagnons",
+        "hadith": {
+          "text": "Le Messager d'Allah ﷺ a dit : « N'injuriez pas mes Compagnons, car si l'un de vous dépensait l'équivalent du mont Uhud en or, cela ne vaudrait pas la moitié d'une poignée de ce qu'ils ont dépensé ».",
+          "source": "Sahih al-Bukhari, 3673 ; Sahih Muslim, 2540, 2541. Rapporté par Abou Sa'id al-Khudri (رَضِيَ اللَّهُ عَنْهُ)"
         }
       }
-    },
-    "otherSahaba": {
-      "placeholder": "Outre les sept grands transmetteurs, des milliers de compagnons ont transmis des hadiths, participé aux expéditions et servi de modèle aux tabi'in. Leurs biographies figurent dans « Siyar a'lam an-nubala » de l'imam adh-Dhahabi, « Al-Isaba fi tamyiz as-Sahaba » d'Ibn Hajar et d'autres ouvrages sunnites."
     }
   }
 }
