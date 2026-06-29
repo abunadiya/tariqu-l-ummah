@@ -1,10 +1,6 @@
 import PageShell from '../components/PageShell';
-import AccordionTopic from '../components/AccordionTopic';
-import SourceVerification from '../components/SourceVerification';
-import { SECTION_ICONS as I } from '../constants/sectionIcons';
 import { useTranslation } from 'react-i18next';
 
-const CALIPHS = ['abuBakr', 'umar', 'uthman', 'ali'];
 const MUKHIRS = [
   'abuHurayra',
   'ibnUmar',
@@ -24,40 +20,6 @@ const Sahabah = () => {
       subtitle={t('sahabahPage.subtitle')}
     >
       <p className="text-muted lh-lg mb-4">{t('sahabahPage.intro')}</p>
-
-      <h2 className="h5 fw-bold text-emerald mb-3">{t('sahabahPage.caliphsHeading')}</h2>
-
-      <div className="accordion path-accordion shadow-sm mb-5" id="sahabahAccordion">
-        {CALIPHS.map((caliphId, index) => {
-          const base = `sahabahPage.caliphs.${caliphId}`;
-          const paragraphs = t(`${base}.paragraphs`, { returnObjects: true });
-          const paragraphList = Array.isArray(paragraphs) ? paragraphs : [];
-
-          return (
-            <AccordionTopic
-              key={caliphId}
-              id={`sahabah-${caliphId}`}
-              parentId="sahabahAccordion"
-              icon={I.shield}
-              title={t(`${base}.title`)}
-              defaultOpen={index === 0}
-            >
-              {paragraphList.map((para, paraIndex) => (
-                <p key={paraIndex} className={paraIndex === paragraphList.length - 1 ? 'mb-0' : undefined}>
-                  {para}
-                </p>
-              ))}
-              {t(`${base}.source`, { defaultValue: '' }) && (
-                <SourceVerification
-                  waqfeyaId="3812"
-                  buttonClass="btn-source-emerald"
-                  sourceText={t(`${base}.source`)}
-                />
-              )}
-            </AccordionTopic>
-          );
-        })}
-      </div>
 
       <section className="sahaba-mukhirs rounded-4 shadow-sm p-4 p-md-5 mb-5">
         <div className="d-flex align-items-start gap-3 mb-4">

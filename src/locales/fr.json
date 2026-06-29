@@ -2,8 +2,8 @@
   "site": {
     "title": "La Voie de l'Ommah: Héritage et Épreuves",
     "subtitle": "Chronique de la civilisation musulmane : des origines à la réflexion sur les leçons du passé, en s'appuyant sur les œuvres des historiens sunnites classiques.",
-    "heroBadge": "طريق الأمة · Tariqu-l-ummah",
-    "footer": "© 2026 طريق الأمة | Tariqu-l-ummah. La vérité demeure toujours avec le Tawhid."
+    "heroBadge": "طريق الأمة · Voie de l'Ommah",
+    "footer": "© 2026 طريق الأمة · Voie de l'Ommah. La vérité demeure toujours avec le Tawhid."
   },
   "nav": {
     "language": "Choix de la langue",
@@ -22,7 +22,7 @@
     "chronoTitle": "Chronologie",
     "chronoIntro": "Trois époques clés rythment la Voie de l'Ommah : fondation, expansion et maturité du monde islamique.",
     "methodologyTitle": "À propos de la méthodologie de la Voie de l'Ommah",
-    "methodologyBody": "La Voie de l'Ommah (Tariqu-l-ummah) est une chronique de la civilisation musulmane, visant à purifier les récits historiques des distorsions et s'appuyant sur les œuvres des historiens sunnites reconnus. Les décisions politiques du passé sont évaluées à la lumière de la aqida pure et des fatwas des savants de leur temps.",
+    "methodologyBody": "La Voie de l'Ommah est une chronique de la civilisation musulmane, visant à purifier les récits historiques des distorsions et s'appuyant sur les œuvres des historiens sunnites reconnus. Les décisions politiques du passé sont évaluées à la lumière de la aqida pure et des fatwas des savants de leur temps.",
     "sources": {
       "tabari": "imam at-Tabari — « Tarikh » (Histoire des prophètes et des rois)",
       "ibnKathir": "Ibn Kathir — « Al-Bidaya wa-n-Nihaya »",
@@ -54,11 +54,11 @@
   },
   "chapters": {
     "sahabah": {
-      "title": "Époque des Compagnons (Sahaba)",
+      "title": "Époque des Compagnons",
       "period": "Époque du Prophète ﷺ — 41 H. / VIIe siècle",
       "description": "Chapitre fondateur de la Voie de l'Ommah : les Compagnons ont reçu l'étendard de l'Islam du Prophète ﷺ et ont porté la religion aux quatre coins du monde. Ici commence la transmission du Coran, de la Sunna et du modèle de service d'Allah.",
       "related": {
-        "righteous": "Les quatre Califes bien guidés ont poursuivi l'œuvre des sahaba dans la gouvernance de l'Ommah.",
+        "righteous": "Les quatre Califes bien guidés ont poursuivi l'œuvre des compagnons dans la gouvernance de l'Ommah.",
         "omayyads": "Les Omeyyades élargirent l'espace ouvert par les premières générations.",
         "caucasus": "Les frontières du nord furent touchées dès l'époque des Compagnons."
       }
@@ -66,7 +66,7 @@
     "righteous": {
       "title": "Époque du Califat bien guidé",
       "period": "11–41 H. / 632–661",
-      "description": "Chapitre consacré aux années d'Abu Bakr, Umar, Uthman et Ali : rassemblement de l'Ommah, préservation du Coran et modèle de gouvernance auquel les générations ultérieures ont toujours referé.",
+      "description": "Chapitre consacré aux années d'Abou Bakr (رَضِيَ اللَّهُ عَنْهُ), Omar (رَضِيَ اللَّهُ عَنْهُ), Othman (رَضِيَ اللَّهُ عَنْهُ) et Ali (رَضِيَ اللَّهُ عَنْهُ) : rassemblement de l'Ommah, préservation du Coran et modèle de gouvernance auquel les générations ultérieures ont toujours referé.",
       "related": {
         "omayyads": "Suite de l'histoire politique après la shura et les premières troubles.",
         "caucasus": "Les premières campagnes vers le nord dans un contexte régional.",
@@ -95,8 +95,8 @@
     },
     "caucasus": {
       "title": "Islam au Caucase du Nord",
-      "period": "De l'époque des sahaba à la guerre du Caucase",
-      "description": "Chapitre retraçant l'Islam à Derbent et aux frontières nordiques, des premiers traités des sahaba au renforcement omeyyade.",
+      "period": "De l'époque des compagnons à la guerre du Caucase",
+      "description": "Chapitre retraçant l'Islam à Derbent et aux frontières nordiques, des premiers traités de l'époque des compagnons au renforcement omeyyade.",
       "related": {
         "righteous": "Sous les califes bien guidés commencèrent les traités et campagnes vers le nord.",
         "omayyads": "Les campagnes omeyyades firent du Caucase une frontière spirituelle et militaire.",
@@ -135,36 +135,17 @@
     }
   },
   "sahabahPage": {
-    "title": "Époque des Compagnons (Sahaba)",
+    "title": "Époque des Compagnons",
     "subtitle": "Fondement de la Voie de l'Ommah : ceux qui ont embrassé l'Islam du vivant du Prophète ﷺ et ont transmis la religion",
-    "intro": "Les Compagnons du Prophète Muhammad (paix et bénédiction sur lui) forment la première génération bénie de l'Ommah. Ils reçurent l'étendard de l'Islam du Prophète ﷺ, préservèrent le Coran et la Sunna, portèrent la religion dans diverses terres et laissèrent un modèle de fermeté, de savoir et de service d'Allah. Ce chapitre est consacré à leur héritage ; ci-dessous, la structure des quatre Califes bien guidés et une place pour d'autres récits authentiques.",
-    "caliphsHeading": "Les quatre Califes bien guidés",
-    "caliphs": {
-      "abuBakr": {
-        "title": "Abu Bakr as-Siddiq",
-        "placeholder": "Premier calife bien guidé, Compagnon proche. Il reçut l'étendard de l'Islam après le Prophète ﷺ, préserva l'unité de l'Ommah, la zakat et le Coran. Biographie authentique à paraître prochainement."
-      },
-      "umar": {
-        "title": "Umar ibn al-Khattab",
-        "placeholder": "Deuxième calife bien guidé, célèbre pour sa justice. Il élargit les frontières de l'Islam et posa les bases de l'administration. Sources vérifiées à ajouter."
-      },
-      "uthman": {
-        "title": "Uthman ibn Affan",
-        "placeholder": "Troisième calife, Dhu-n-Nurayn. Il unifia le mushaf pour toute l'Ommah et acheva la grande expansion. Textes et références suivront."
-      },
-      "ali": {
-        "title": "Ali ibn Abi Talib",
-        "placeholder": "Quatrième calife, cousin et gendre du Prophète ﷺ. Il lutta pour l'unité de l'Ommah et la légitimité du shari'a. Matériaux sur son savoir et son courage à venir."
-      }
-    },
+    "intro": "Les Compagnons du Prophète Muhammad (paix et bénédiction sur lui) forment la première génération bénie de l'Ommah. Ils reçurent l'étendard de l'Islam du Prophète ﷺ, préservèrent le Coran et la Sunna, portèrent la religion dans diverses terres et laissèrent un modèle de fermeté, de savoir et de service d'Allah. Ci-dessous, les biographies des sept grands transmetteurs de hadiths. Pour les quatre Califes bien guidés, voir le chapitre suivant « Époque du Califat bien guidé ».",
     "otherSahaba": {
-      "title": "Autres Compagnons",
-      "placeholder": "Au-delà des quatre Califes, des milliers de sahaba transmirent les hadiths, participèrent aux campagnes et portèrent l'Islam. Cette section sera enrichie de biographies fondées sur « Siyar a'lam an-nubala » et d'autres sources sunnites."
+      "title": "Autres compagnons",
+      "placeholder": "Au-delà des sept grands transmetteurs, des milliers de compagnons transmirent les hadiths, participèrent aux campagnes et portèrent l'Islam. Cette section sera enrichie de biographies fondées sur « Siyar a'lam an-nubala » et d'autres sources sunnites."
     }
   },
   "source": {
     "title": "Vérification des sources",
-    "button": "Texte original dans les sources arabes (Waqfeya.net)",
+    "button": "Texte original dans les sources arabes (Waqfiya)",
     "referencePrefix": "Dans la langue actuelle :"
   },
   "decline": {

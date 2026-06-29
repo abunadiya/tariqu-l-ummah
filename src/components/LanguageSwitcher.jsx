@@ -2,7 +2,6 @@ import { useTranslation } from 'react-i18next';
 
 const LANGUAGES = [
   { code: 'ru', label: 'RU' },
-  { code: 'ar', label: 'AR' },
   { code: 'fr', label: 'FR' },
 ];
 
