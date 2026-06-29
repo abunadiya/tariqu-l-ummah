@@ -6,12 +6,16 @@
     "footer": "© 2026 طريق الأمة · Voie de l'Ommah. La vérité demeure toujours avec le Tawhid."
   },
   "footer": {
+    "brandName": "Voie de l'Ommah",
     "about": "La Voie de l'Ommah est une chronique de la civilisation musulmane, fondée sur les sources sunnites classiques, la vérification des textes originaux et une aqida pure.",
-    "navigation": "Navigation",
-    "contactTitle": "Contact",
-    "contact": "Nous écrire",
-    "contactHint": "Questions, suggestions et remarques sur le contenu du site — via le dépôt GitHub du projet.",
-    "contactUrl": "https://github.com/abunadiya/tariqu-l-ummah/issues",
+    "mainSections": "Sections principales",
+    "epochs": "Époques historiques",
+    "contactTitle": "Contacts",
+    "contactHint": "Canaux officiels pour contacter l'équipe du projet.",
+    "telegram": "Notre chaîne Telegram",
+    "telegramUrl": "https://t.me/tariq_al_ummah",
+    "email": "Nous contacter par e-mail",
+    "emailUrl": "mailto:abunadiya44@gmail.com",
     "copyright": "© 2026 Tariq al-Ummah. Tous droits réservés."
   },
   "nav": {

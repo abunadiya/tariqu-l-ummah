@@ -32,9 +32,19 @@ body {
   min-height: 100svh;
 }
 
-.path-navbar {
+.site-header {
   position: sticky;
   top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 100%;
+  z-index: 1050;
+}
+
+.path-navbar {
+  position: relative;
+  top: auto;
   left: 0;
   right: 0;
   width: 100%;
@@ -44,9 +54,7 @@ body {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   background-color: var(--header-dark) !important;
-  background: linear-gradient(135deg, rgba(26, 35, 50, 0.98) 0%, rgba(13, 40, 24, 0.98) 100%) !important;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: var(--header-dark) !important;
   border-bottom: 3px solid var(--emerald-light);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
 }
@@ -54,6 +62,12 @@ body {
 .path-navbar-inner {
   width: 100%;
   max-width: 100%;
+}
+
+@media (min-width: 992px) {
+  .path-navbar {
+    background: linear-gradient(135deg, #1a2332 0%, #0d2818 100%) !important;
+  }
 }
 
 .path-navbar-toggler {
@@ -87,8 +101,9 @@ body {
 @media (max-width: 991.98px) {
   .path-navbar .navbar-collapse {
     margin-top: 0.75rem;
-    padding-top: 0.75rem;
+    padding: 0.75rem 0 0.5rem;
     border-top: 1px solid rgba(255, 255, 255, 0.14);
+    background: var(--header-dark);
   }
 
   .path-navbar-nav {
@@ -174,32 +189,44 @@ body {
   align-items: center;
   color: rgba(255, 255, 255, 0.82);
   text-decoration: none;
-  padding: 0.35rem 0;
+  padding: 0.3rem 0;
   font-weight: 500;
+  font-size: 0.92rem;
+  line-height: 1.4;
   transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.site-footer-nav li + li {
+  margin-top: 0.1rem;
 }
 
 .site-footer-link:hover,
 .site-footer-link:focus {
-  color: #fff;
+  color: var(--gold-light);
   transform: translateX(2px);
 }
 
-.site-footer-contact-btn {
-  background: rgba(212, 168, 75, 0.15);
-  border: 1px solid rgba(212, 168, 75, 0.45);
-  color: #fff;
+.site-footer-contact-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.92);
+  text-decoration: none;
   font-weight: 600;
-  padding: 0.55rem 1.1rem;
+  font-size: 0.92rem;
+  padding: 0.65rem 0.9rem;
   border-radius: 0.5rem;
-  transition: background-color 0.15s ease, border-color 0.15s ease;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.06);
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
 }
 
-.site-footer-contact-btn:hover,
-.site-footer-contact-btn:focus {
-  background: rgba(212, 168, 75, 0.28);
-  border-color: rgba(212, 168, 75, 0.65);
+.site-footer-contact-link:hover,
+.site-footer-contact-link:focus {
   color: #fff;
+  background: rgba(212, 168, 75, 0.2);
+  border-color: rgba(212, 168, 75, 0.5);
 }
 
 .site-footer-bottom {

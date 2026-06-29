@@ -38,7 +38,7 @@ const Header = () => {
               className="site-logo rounded-circle"
             />
             <span className="text-white site-brand-ar">طريق الأمة</span>
-            <span className="brand-sub d-none d-sm-inline">Tariqu-l-ummah</span>
+            <span className="brand-sub d-none d-sm-inline">{t('footer.brandName')}</span>
           </Link>
 
           <button
