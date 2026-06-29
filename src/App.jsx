@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import SiteLayout from './components/SiteLayout';
 import Home from './Home.jsx';
 import Sahabah from './pages/Sahabah.jsx';
 import RighteousCaliphate from './pages/RighteousCaliphate.jsx';
@@ -14,16 +15,18 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/library" element={<Library />} />
-        <Route path="/sahabah" element={<Sahabah />} />
-        <Route path="/righteous" element={<RighteousCaliphate />} />
-        <Route path="/omayyads" element={<Omayyads />} />
-        <Route path="/abbasids" element={<Abbasids />} />
-        <Route path="/caucasus" element={<NorthCaucasus />} />
-        <Route path="/central-asia" element={<CentralAsia />} />
-        <Route path="/andalusia" element={<Andalusia />} />
-        <Route path="/crimea" element={<Crimea />} />
+        <Route element={<SiteLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/library" element={<Library />} />
+          <Route path="/sahabah" element={<Sahabah />} />
+          <Route path="/righteous" element={<RighteousCaliphate />} />
+          <Route path="/omayyads" element={<Omayyads />} />
+          <Route path="/abbasids" element={<Abbasids />} />
+          <Route path="/caucasus" element={<NorthCaucasus />} />
+          <Route path="/central-asia" element={<CentralAsia />} />
+          <Route path="/andalusia" element={<Andalusia />} />
+          <Route path="/crimea" element={<Crimea />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );

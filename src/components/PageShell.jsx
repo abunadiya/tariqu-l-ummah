@@ -7,7 +7,7 @@ const PageShell = ({
   accent = 'var(--emerald)',
   children,
 }) => (
-  <div className="path-page min-vh-100 py-4 py-md-5">
+  <div className="path-page py-4 py-md-5">
     <div className="container">
       <div className="mb-4">
         <BackButton />

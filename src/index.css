@@ -154,9 +154,61 @@ body {
 }
 
 .path-footer {
-  background: var(--header-dark);
+  background: linear-gradient(135deg, rgba(26, 35, 50, 0.98) 0%, rgba(13, 40, 24, 0.98) 100%);
   border-top: 3px solid var(--emerald);
   color: rgba(255, 255, 255, 0.85);
+}
+
+.site-footer-about {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.site-footer-heading {
+  color: var(--gold-light);
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+}
+
+.site-footer-link {
+  display: inline-flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.82);
+  text-decoration: none;
+  padding: 0.35rem 0;
+  font-weight: 500;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.site-footer-link:hover,
+.site-footer-link:focus {
+  color: #fff;
+  transform: translateX(2px);
+}
+
+.site-footer-contact-btn {
+  background: rgba(212, 168, 75, 0.15);
+  border: 1px solid rgba(212, 168, 75, 0.45);
+  color: #fff;
+  font-weight: 600;
+  padding: 0.55rem 1.1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.site-footer-contact-btn:hover,
+.site-footer-contact-btn:focus {
+  background: rgba(212, 168, 75, 0.28);
+  border-color: rgba(212, 168, 75, 0.65);
+  color: #fff;
+}
+
+.site-footer-bottom {
+  background: rgba(0, 0, 0, 0.22);
+  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.site-main {
+  width: 100%;
 }
 
 .path-brand {

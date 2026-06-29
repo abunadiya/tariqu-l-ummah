@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import SiteLayout from './components/SiteLayout';
 import { PATH_CHAPTERS, getRelatedChapters } from './constants/sections';
 import { useChapterTranslation } from './hooks/useChapterTranslation';
 
@@ -72,7 +71,7 @@ const Home = () => {
     .filter(Boolean);
 
   return (
-    <SiteLayout>
+    <>
       <header className="home-hero py-5 text-center">
         <div className="container py-4 hero-inner">
           <span className="hero-badge">{t('site.heroBadge')}</span>
@@ -81,7 +80,7 @@ const Home = () => {
         </div>
       </header>
 
-      <main className="container py-5">
+      <div className="container py-5">
         <div className="text-center mb-5">
           <h2 className="section-intro fw-bold mb-2 pb-2 border-bottom border-emerald-subtle d-inline-block">
             {t('home.milestonesTitle')}
@@ -121,8 +120,8 @@ const Home = () => {
             <li>{t('home.sources.dhahabi')}</li>
           </ul>
         </section>
-      </main>
-    </SiteLayout>
+      </div>
+    </>
   );
 };
 

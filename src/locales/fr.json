@@ -5,6 +5,15 @@
     "heroBadge": "طريق الأمة · Voie de l'Ommah",
     "footer": "© 2026 طريق الأمة · Voie de l'Ommah. La vérité demeure toujours avec le Tawhid."
   },
+  "footer": {
+    "about": "La Voie de l'Ommah est une chronique de la civilisation musulmane, fondée sur les sources sunnites classiques, la vérification des textes originaux et une aqida pure.",
+    "navigation": "Navigation",
+    "contactTitle": "Contact",
+    "contact": "Nous écrire",
+    "contactHint": "Questions, suggestions et remarques sur le contenu du site — via le dépôt GitHub du projet.",
+    "contactUrl": "https://github.com/abunadiya/tariqu-l-ummah/issues",
+    "copyright": "© 2026 Tariq al-Ummah. Tous droits réservés."
+  },
   "nav": {
     "language": "Choix de la langue",
     "library": "Bibliothèque",

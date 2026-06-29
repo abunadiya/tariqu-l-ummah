@@ -1,13 +1,11 @@
 import { useTranslation } from 'react-i18next';
-import SiteLayout from '../components/SiteLayout';
 import { LIBRARY_BOOKS } from '../constants/libraryBooks';
 
 const Library = () => {
   const { t } = useTranslation();
 
   return (
-    <SiteLayout>
-      <div className="path-page min-vh-100 py-4 py-md-5">
+    <div className="path-page py-4 py-md-5">
         <div className="container">
           <header className="page-hero mb-5 rounded-3 shadow-sm">
             <div className="page-hero-inner p-4 p-md-5">
@@ -52,8 +50,7 @@ const Library = () => {
             })}
           </div>
         </div>
-      </div>
-    </SiteLayout>
+    </div>
   );
 };
 
