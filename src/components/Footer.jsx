@@ -33,13 +33,9 @@ const Footer = () => {
               to="/"
               className="site-footer-brand d-inline-flex align-items-center gap-2 text-decoration-none mb-3"
             >
-              <img
-                src={logo}
-                alt=""
-                width={44}
-                height={44}
-                className="site-logo rounded-circle"
-              />
+              <span className="site-logo-wrap site-logo-wrap--lg rounded-circle" aria-hidden="true">
+                <img src={logo} alt="" className="site-logo" />
+              </span>
               <span className="site-footer-brand-text">
                 <span className="d-block text-white fw-bold site-brand-ar">طريق الأمة</span>
                 <span className="d-block small text-white-50">{t('footer.brandName')}</span>

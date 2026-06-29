@@ -30,13 +30,13 @@ const Header = () => {
             to="/"
             onClick={closeMobileNav}
           >
-            <img
-              src={logo}
-              alt=""
-              width={40}
-              height={40}
-              className="site-logo rounded-circle"
-            />
+            <span className="site-logo-wrap rounded-circle flex-shrink-0" aria-hidden="true">
+              <img
+                src={logo}
+                alt=""
+                className="site-logo"
+              />
+            </span>
             <span className="text-white site-brand-ar">طريق الأمة</span>
             <span className="brand-sub d-none d-sm-inline">{t('footer.brandName')}</span>
           </Link>

@@ -129,7 +129,7 @@ const Home = () => {
                 </a>
                 {t('home.authorPreface.disclaimer.contactAfter')}
               </p>
-              <p className="author-preface-closing mb-0 text-end fs-6" lang="ar" dir="rtl">
+              <p className="author-preface-closing mb-0 text-center fs-6" lang="ar" dir="rtl">
                 {t('home.authorPreface.disclaimer.closing')}
               </p>
             </div>
