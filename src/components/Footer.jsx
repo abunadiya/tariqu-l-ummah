@@ -37,7 +37,7 @@ const Footer = () => {
                 <img src={logo} alt="" className="site-logo" />
               </span>
               <span className="site-footer-brand-text">
-                <span className="d-block text-white fw-bold site-brand-ar">طريق الأمة</span>
+                <span className="d-block text-white fw-bold site-brand-ar">طريق الأمّة</span>
                 <span className="d-block small text-white-50">{t('footer.brandName')}</span>
               </span>
             </Link>

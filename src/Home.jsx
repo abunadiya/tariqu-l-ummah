@@ -85,56 +85,81 @@ const Home = () => {
       </header>
 
       <div className="container py-5">
-        <section className="author-preface-block rounded-4 p-4 p-md-5 shadow-sm mb-5" aria-labelledby="author-preface-title">
-          <div className="author-preface-header d-flex align-items-start gap-3 mb-4 pb-3 border-bottom border-emerald-subtle">
-            <span className="author-preface-icon flex-shrink-0" aria-hidden="true">
-              <i className="bi bi-feather" />
-            </span>
-            <div>
-              <h2 id="author-preface-title" className="h4 fw-bold text-emerald mb-0 lh-base">
-                {t('home.authorPreface.title')}
-              </h2>
-            </div>
-          </div>
-          <div className="author-preface-body">
-            {prefaceList.map((paragraph, index) => (
-              <p
-                key={index}
-                className={`text-muted lh-lg ${index === prefaceList.length - 1 ? 'mb-0' : 'mb-4'}`}
+        <div className="author-preface-accordion accordion mb-5 mx-auto" id="authorPrefaceAccordion">
+          <div className="accordion-item author-preface-block border-0 rounded-4 shadow-sm overflow-hidden">
+            <h2 className="accordion-header" id="authorPrefaceHeading">
+              <button
+                className="accordion-button collapsed author-preface-toggle fw-semibold text-emerald"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#authorPrefaceCollapse"
+                aria-expanded="false"
+                aria-controls="authorPrefaceCollapse"
               >
-                {paragraph}
-              </p>
-            ))}
-          </div>
+                <i className="bi bi-journal-text me-2 flex-shrink-0" aria-hidden="true" />
+                {t('home.authorPreface.toggleLabel')}
+              </button>
+            </h2>
+            <div
+              id="authorPrefaceCollapse"
+              className="accordion-collapse collapse"
+              aria-labelledby="authorPrefaceHeading"
+              data-bs-parent="#authorPrefaceAccordion"
+            >
+              <div className="accordion-body p-4 p-md-5">
+                <div className="author-preface-header d-flex align-items-start gap-3 mb-4 pb-3 border-bottom border-emerald-subtle">
+                  <span className="author-preface-icon flex-shrink-0" aria-hidden="true">
+                    <i className="bi bi-feather" />
+                  </span>
+                  <div>
+                    <p className="h4 fw-bold text-emerald mb-0 lh-base">
+                      {t('home.authorPreface.title')}
+                    </p>
+                  </div>
+                </div>
+                <div className="author-preface-body">
+                  {prefaceList.map((paragraph, index) => (
+                    <p
+                      key={index}
+                      className={`text-muted lh-lg ${index === prefaceList.length - 1 ? 'mb-0' : 'mb-4'}`}
+                    >
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
 
-          <aside className="author-preface-disclaimer card border-0 mt-4 mt-md-5" aria-labelledby="author-preface-disclaimer-title">
-            <div className="card-body p-4 p-md-5">
-              <h3 id="author-preface-disclaimer-title" className="h6 fw-bold text-secondary mb-3">
-                {t('home.authorPreface.disclaimer.title')}
-              </h3>
-              {disclaimerList.map((paragraph, index) => (
-                <p key={index} className="small text-muted lh-lg mb-3">
-                  {paragraph}
-                </p>
-              ))}
-              <p className="small text-muted lh-lg mb-3">
-                {t('home.authorPreface.disclaimer.contactBefore')}
-                <a
-                  href={t('footer.telegramUrl')}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link-secondary"
+                <aside
+                  className="author-preface-disclaimer alert alert-secondary border-0 mt-4 mt-md-5 mb-0"
+                  aria-labelledby="author-preface-disclaimer-title"
                 >
-                  {t('home.authorPreface.disclaimer.contactLink')}
-                </a>
-                {t('home.authorPreface.disclaimer.contactAfter')}
-              </p>
-              <p className="author-preface-closing mb-0 text-center fs-6" lang="ar" dir="rtl">
-                {t('home.authorPreface.disclaimer.closing')}
-              </p>
+                  <h3 id="author-preface-disclaimer-title" className="h6 fw-bold text-secondary mb-3">
+                    {t('home.authorPreface.disclaimer.title')}
+                  </h3>
+                  {disclaimerList.map((paragraph, index) => (
+                    <p key={index} className="small text-muted lh-lg mb-3">
+                      {paragraph}
+                    </p>
+                  ))}
+                  <p className="small text-muted lh-lg mb-3">
+                    {t('home.authorPreface.disclaimer.contactBefore')}
+                    <a
+                      href={t('footer.telegramUrl')}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="alert-link"
+                    >
+                      {t('home.authorPreface.disclaimer.contactLink')}
+                    </a>
+                    {t('home.authorPreface.disclaimer.contactAfter')}
+                  </p>
+                  <p className="author-preface-closing mb-0 text-center fs-6" lang="ar" dir="rtl">
+                    {t('home.authorPreface.disclaimer.closing')}
+                  </p>
+                </aside>
+              </div>
             </div>
-          </aside>
-        </section>
+          </div>
+        </div>
 
         <div className="text-center mb-5">
           <h2 className="section-intro fw-bold mb-2 pb-2 border-bottom border-emerald-subtle d-inline-block">

@@ -37,7 +37,7 @@ const Header = () => {
                 className="site-logo"
               />
             </span>
-            <span className="text-white site-brand-ar">طريق الأمة</span>
+            <span className="text-white site-brand-ar">طريق الأمّة</span>
             <span className="brand-sub d-none d-sm-inline">{t('footer.brandName')}</span>
           </Link>
 
