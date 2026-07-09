@@ -269,6 +269,66 @@
             "A la deuxieme etape, les autorites ont procede a la liquidation des livres dans les langues nationales utilisant la graphie arabe (adjam). L'adjam n'a jamais remplace la langue arabe en theologie — il servait de pont auxiliaire par lequel parvenaient au peuple simple, ne maitrisant pas parfaitement l'arabe, les connaissances religieuses de base, les fondements de la pratique et des traductions du sens. La liquidation de l'adjam par latinisation forcee, puis par cyrillisation, infligea un coup terrible a la continuite des generations : elle entraina une chute brutale de la culture religieuse des musulmans et la perte effective d'archives colossales de la pensee islamique dans toutes les regions de notre Ommah — au Caucase, sur la Volga, en Crimee et au Turkestan (Asie centrale)."
           ],
           "source": "Voir les etudes sur l'histoire de l'education islamique dans le Caucase, les documents judiciaires relatifs a la fermeture des madrasas et les travaux sur le passage de l'adjam aux alphabets latin puis cyrillique au XXe siecle. Voir les recherches sur le role de l'ecriture arabe dans la preservation des savoirs religieux des peuples montagnards."
+        },
+        "ibnRusta": {
+          "title": "Sujet 6 : Le Caucase oriental au Xe siecle dans les ouvrages des geographes musulmans",
+          "heading": "Le Caucase au Xe siecle dans les ouvrages des geographes musulmans : « Kitab al-a'laq an-nafisa » d'Ibn Rusta",
+          "intro": [
+            "A la charniere des IXe et Xe siecles vivait a Ispahan le celebre encyclopediste musulman Abu Ali Ahmad ibn Umar ibn Rusta. Son ouvrage fondamental « Kitab al-a'laq an-nafisa » (« Le livre des colliers precieux ») devint une source inestimable pour l'histoire medievale du Caucase.",
+            "Ibn Rusta n'etait pas lui-meme voyageur, mais sa chronique est unique en ce qu'elle repose entierement sur des recits detailles et fiables de temoins oculaires qui avaient sejourne au Daghestan et recueilli des informations sur la geographie et les peuples locaux."
+          ],
+          "geographyCards": [
+            {
+              "title": "Description de la mer Caspienne",
+              "body": "Dans les sources arabes de cette epoque, la Caspienne etait appelee « mer d'al-Baba ». Ibn Rusta en fixa la longueur a 1800 milles et la largeur a 600 milles. Les historiens notent que, si l'on calcule ces donnees selon l'ensemble du littoral de la Caspienne, les mesures musulmanes anciennes se revelent etonnamment precises."
+            },
+            {
+              "title": "Les frontieres du califat",
+              "body": "Dans ses ecrits, le savant indique clairement que la ville de Derbent (Bab al-Abwab) et toutes les terres adjacentes faisaient officiellement partie des regions frontalieres du vaste Etat islamique."
+            }
+          ],
+          "sarir": {
+            "title": "L'Etat de Sarir : organisation, residences et coutumes anciennes",
+            "intro": "Au Xe siecle, dans le Daghestan montagneux, existait un Etat puissant et influent appele Sarir, qui connaissait alors l'apogee de sa puissance. La chronique musulmane nous transmet d'importants details sur son organisation :",
+            "cards": [
+              {
+                "title": "Emplacement de la capitale",
+                "body": "Le chemin vers la residence du souverain de Sarir demandait douze jours de marche dans la steppe, puis trois jours d'ascension par des montagnes escarpees et des ravins. La principale citadelle de pierre se dressait au sommet d'une immense montagne. L'analyse geographique moderne confirme que cette description correspond exactement au plateau de Khunzakh et a la montagne strategique d'Akaro."
+              },
+              {
+                "title": "Symboles du pouvoir",
+                "body": "Le souverain de Sarir, designe dans les chroniques sous le nom d'Avar, possedait deux trones uniques — l'un d'or, l'autre d'argent. Le trone d'or etait celui du souverain lui-meme, tandis que le trone d'argent etait reserve a ses proches assistants et aux dignitaires de la cour."
+              },
+              {
+                "title": "La forteresse d'Alal et le tresor",
+                "body": "Le livre mentionne la forteresse d'Alal, ou etaient conserves les principales richesses et le tresor du souverain. Les recherches historiques situent ce lieu dans la societe d'Andalal — le celebre ancien village de Kudali, ou subsistent encore aujourd'hui des vestiges de puissantes murailles defensives du haut Moyen Age."
+              },
+              {
+                "title": "Rite funeraire preislamique",
+                "body": "Ibn Rusta decrit une coutume inhabituelle pratiquee par les montagnards locaux avant l'adoption de l'Islam. A la mort d'une personne, son corps etait laisse sur un brancard sur la place principale (godekan) pendant trois jours. Le quatrieme jour, des guerriers en cotte de mailles, montes a cheval, entouraient le defunt et le menacaient ostensiblement de leurs lances sans le frapper. Les montagnards expliquaient cela par un ancien cas ou un enterre s'etait reveille et avait crie depuis sa tombe. Ils verifiaient ainsi si l'ame ne reviendrait pas dans le corps avant l'inhumation definitive."
+              }
+            ]
+          },
+          "kaytag": {
+            "title": "Evenements au Kaytag (Haydak)",
+            "paragraphs": [
+              "En s'eloignant de la residence de Sarir vers le sud-est, a travers hautes montagnes et forets denses, les voyageurs atteignaient en douze etapes le domaine feodal de Haydak (Kaytag).",
+              "Manoeuvres politiques de l'elite dirigeante : a Haydak regnait un prince nomme Adzarnarse. Situe a la frontiere entre le califat musulman et le khaganat khazar, il tentait de mener un jeu diplomatique complexe. Les voyageurs noterent qu'il frequentait la mosquee et priait avec les musulmans le vendredi, se rendait aupres des juifs le samedi et priait avec les chretiens le dimanche, justifiant cela par le souci pragmatique de preserver la paix avec tous les puissants voisins."
+            ],
+            "theologicalNote": {
+              "title": "Note theologique importante",
+              "body": "Du point de vue de la croyance islamique ('aqida), la conception de l'unicite pure d'Allah (tawhid) exclut totalement la combinaison de la pratique islamique avec des elements d'autres cultes religieux. De telles actions de souverains medievaux, meme si elles etaient dictees par un interet politique et une diplomatie purement utilitaires, constituent une violation directe des fondements de l'Islam. La tradition musulmane a toujours trace une frontiere nette entre la diplomatie permise pour le bien de la communaute et les compromis religieux au detriment de la foi."
+            }
+          },
+          "derbentFortress": {
+            "title": "Le principal bastion de l'Islam — Bab al-Abwab (Derbent)",
+            "quote": "Derbent est reste a tout jamais le bouclier essentiel du monde musulman dans le Caucase.",
+            "paragraphs": [
+              "Les premiers murs de pierre furent edifies ici par les Perses, mais ce sont les compagnons du Prophete (paix et benediction d'Allah sur lui) ﷺ qui, en venant sur ces terres, transformerent la ville en bastion inexpugnable et permanent de la foi.",
+              "Les musulmans restaurerent, renforcerent et agrandirent completement ces grandes fortifications. La chronique du Xe siecle decrit en detail un systeme de defense unique : de puissantes murailles urbaines descendaient des contreforts du Caucase et s'enfoncaient directement dans la mer Caspienne sur pres de six kilometres. Guerriers et ingenieurs musulmans entretenaient avec soin ces murailles sous-marines afin que les navires ennemis venant du nord ne puissent contourner la forteresse par la mer. Les musulmans fermerent solidement ce passage strategique, protegeant les frontieres septentrionales de la Umma pour des siecles."
+            ]
+          },
+          "source": "Voir Abu Ali Ahmad ibn Umar ibn Rusta, « Kitab al-a'laq an-nafisa » (« Le livre des colliers precieux »). Voir egalement les etudes sur l'histoire de Sarir, du Kaytag et des fortifications de Derbent dans les travaux de geographie medievale du monde islamique."
         }
       }
     },

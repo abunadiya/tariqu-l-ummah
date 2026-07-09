@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import AccordionTopic from './AccordionTopic';
 import SourceVerification from './SourceVerification';
+import IbnRustaSection from './history/IbnRustaSection';
 
 const renderParagraph = (para, index) => {
   if (typeof para === 'object' && para !== null && para.html) {
@@ -35,7 +36,11 @@ const ChapterTopics = ({ pageKey, topics, parentId }) => {
             title={t(`${base}.title`)}
             defaultOpen={topic.defaultOpen ?? index === 0}
           >
-            {paragraphList.map(renderParagraph)}
+            {topic.variant === 'ibnRusta' ? (
+              <IbnRustaSection pageKey={pageKey} topicId={topic.id} />
+            ) : (
+              paragraphList.map(renderParagraph)
+            )}
             {topic.waqfeyaId && (
               <SourceVerification
                 waqfeyaId={topic.waqfeyaId}

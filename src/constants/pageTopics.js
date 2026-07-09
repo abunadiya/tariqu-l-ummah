@@ -64,6 +64,7 @@ export const NORTH_CAUCASUS_TOPICS = [
   { id: 'sharia', accordionId: 'collapseNc3', icon: I.book, waqfeyaId: '3401' },
   { id: 'war', accordionId: 'collapseNc4', icon: I.shield, waqfeyaId: '3401' },
   { id: 'adjam', accordionId: 'collapseNc5', icon: I.scroll, waqfeyaId: '3812' },
+  { id: 'ibnRusta', accordionId: 'collapseNc6', icon: I.manuscript, variant: 'ibnRusta', waqfeyaId: '3812' },
 ];
 
 export const CRIMEA_TOPICS = [
