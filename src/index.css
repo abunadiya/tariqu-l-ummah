@@ -779,14 +779,16 @@ body {
 }
 
 .library-book-card {
-  background: var(--paper-card);
-  border: 1px solid rgba(13, 92, 75, 0.12);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: linear-gradient(135deg, rgba(13, 92, 75, 0.03) 0%, rgba(247, 243, 235, 0.98) 100%);
+  border: 1px solid rgba(13, 92, 75, 0.12) !important;
+  border-top: 3px solid var(--emerald) !important;
+  border-radius: 1rem !important;
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
 }
 
 .library-book-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 28px rgba(13, 92, 75, 0.12) !important;
+  transform: translateY(-4px);
+  box-shadow: 0 14px 32px rgba(13, 92, 75, 0.14) !important;
 }
 
 .library-book-icon {
@@ -798,7 +800,63 @@ body {
   border-radius: 0.75rem;
   background: rgba(13, 92, 75, 0.1);
   color: var(--emerald);
-  font-size: 1.25rem;
+  font-size: 1.2rem;
+}
+
+.library-book-title {
+  font-family: var(--heading);
+  color: var(--emerald-dark);
+  line-height: 1.35;
+}
+
+.library-book-author {
+  font-family: var(--heading);
+}
+
+.library-type-badge {
+  background: rgba(184, 134, 11, 0.12);
+  color: #8a6508;
+  border: 1px solid rgba(184, 134, 11, 0.22);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 0.35rem 0.65rem;
+}
+
+.library-hero-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(212, 168, 75, 0.35);
+  color: var(--gold-light);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.9rem;
+  border-radius: 2rem;
+}
+
+.library-intro {
+  max-width: 52rem;
+}
+
+.library-category-title {
+  font-family: var(--heading);
+  color: var(--emerald-dark);
+}
+
+.library-category-header {
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(13, 92, 75, 0.12);
+}
+
+.library-category-section:last-child {
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 575.98px) {
+  .library-book-card .card-body {
+    padding: 1rem !important;
+  }
 }
 
 .path-nav-link:hover {

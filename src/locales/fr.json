@@ -73,23 +73,100 @@
   },
   "library": {
     "title": "Bibliothèque",
-    "subtitle": "Ouvrages sunnites classiques d'histoire, de hadith et de biographies des Compagnons. Les livres sont disponibles en lecture et en téléchargement PDF.",
-    "readButton": "Lire / Télécharger PDF",
+    "heroBadge": "طريق الأمّة · Voie de l'Ommah",
+    "subtitle": "Études, sources et ouvrages sur l'histoire de l'Islam, la savoir daghestanaise et l'héritage de l'Ommah — en PDF pour la lecture et l'étude.",
+    "intro": "La bibliothèque rassemble {{count}} documents scientifiques : articles, recueils et ouvrages de référence sur l'histoire de l'Islam dans le Caucase, les sources arabes, les savants daghestanais et la préservation de l'héritage islamique. Le bouton « Lire » ouvre le fichier PDF correspondant.",
+    "readButton": "Lire",
+    "categories": {
+      "arabicSources": "Sources arabes et leurs études",
+      "dagestanScholars": "Savants daghestanais et héritage",
+      "islamOnCaucasus": "Histoire de l'Islam dans le Caucase",
+      "colonialPeriod": "Période coloniale et résistance",
+      "languageAndManuscripts": "Langue, grammaire et manuscrits",
+      "regionalStudies": "Études régionales"
+    },
+    "categoryDescriptions": {
+      "arabicSources": "Traductions, commentaires et analyses de chroniques et ouvrages géographiques arabes classiques sur le Caucase.",
+      "dagestanScholars": "Biographies, documents et matériaux sur les savants-bogotvovedy daghestanais et les gardiens du savoir sunnite.",
+      "islamOnCaucasus": "Ouvrages sur la diffusion de l'Islam, l'enracinement de la charia et la vie spirituelle des musulmans montagnards.",
+      "colonialPeriod": "Études sur la guerre du Caucase, les révoltes et le sort du clergé musulman après la conquête.",
+      "languageAndManuscripts": "Grammaires, dialectologie et catalogues de manuscrits arabes d'auteurs daghestanais.",
+      "regionalStudies": "Recueils et annuaires sur l'histoire des peuples du Caucase et des régions voisines."
+    },
+    "types": {
+      "article": "Article",
+      "collection": "Recueil",
+      "catalog": "Catalogue",
+      "grammar": "Grammaire",
+      "monograph": "Monographie",
+      "yearbook": "Annuaire",
+      "review": "Recension"
+    },
     "books": {
-      "bidaya": {
-        "title": "« Al-Bidaya wa-n-Nihaya »",
-        "author": "Ibn Kathir",
-        "description": "Chronique fondamentale de l'histoire musulmane, de la création du monde au IXe siècle hégirien. Source essentielle pour l'étude de l'époque des Compagnons et des Califes bien guidés."
+      "kayaevBashlarov": {
+        "title": "De l'histoire de la vie et de l'œuvre d'Ali Kayayev et de Sayfulla-qadi Bashlarov",
+        "author": "Shikhaliiev Sh.Sh., Navruzov A.R.",
+        "description": "Recueil de documents et de matériaux sur deux éminents savants-bogotvovedy, pédagogues et historiens daghestanais — Ali Kayayev (m. 1943) et le cheikh Sayfulla-qadi Bashlarov (1852–1911). Restitue leurs biographies, leur contribution à la diffusion du savoir sunnite, la fondation du premier journal en arabe « Jaridat Dagestan » et la préservation de la tradition islamique à la charnière des époques impériale et soviétique."
       },
-      "tabari": {
-        "title": "« Tarikh » (Histoire des prophètes et des rois)",
-        "author": "imam at-Tabari",
-        "description": "Ouvrage classique sur l'histoire de l'Islam et des peuples anciens. Contient des chroniques fiables des premiers siècles de l'Hégire et des biographies de souverains."
+      "tabariDagestan": {
+        "title": "Données sur le Daghestan dans le « Tarikh ar-rusul wal-muluk » de l'imam at-Tabari",
+        "author": "M. A. Gizbulaev",
+        "description": "Article de recherche sur la traduction et l'analyse de fragments du monument de l'imam at-Tabari « Tarikh ar-rusul wal-muluk » (« Histoire des prophètes et des rois ») relatifs au Caucase et au Daghestan aux VIe–VIIIe siècles. Éclaire les témoignages sur la conquête d'al-Bab (Derbent) et les relations du califat avec les peuples du Caucase oriental."
       },
-      "siyar": {
-        "title": "« Siyar a'lam an-nubala »",
-        "author": "imam adh-Dhahabi",
-        "description": "Encyclopédie biographique des savants, hadithologues et dirigeants pieux. Référence indispensable sur la vie des Compagnons et des tabi'in."
+      "ibnRustaDagestan": {
+        "title": "Données sur le Daghestan dans le « Kitab al-a'laq an-nafisa » d'Ibn Rusta",
+        "author": "M. A. Gizbulaev",
+        "description": "Article de traduction et de commentaire d'extraits du « Kitab al-a'laq an-nafisa » (« Livre des colliers précieux ») d'Abu 'Ali Ahmad ibn 'Umar ibn Rusta — source géographique précieuse sur le Caucase au Xe siècle. Contient des renseignements sur l'État de Sarir, l'ethnographie des peuples montagnards et les formations politiques du Daghestan."
+      },
+      "daghestanGeography": {
+        "title": "Données sur le Daghestan dans l'ouvrage géographique arabe d'Ibn Rusta",
+        "author": "M. A. Gizbulaev",
+        "description": "Publication scientifique (2021) avec traduction, commentaires et analyse comparative des données géographiques d'Ibn Rusta avec les œuvres d'Ibn Khordadbeh et d'Ibn al-Fakih."
+      },
+      "damadanMuhi": {
+        "title": "Biographies arabographiques daghestanaises et le savant-bogotvoved Damadan al-Muhi",
+        "author": "M. A. Musaev",
+        "description": "Étude de l'évolution de la littérature biographique arabographique daghestanaise de la seconde moitié du XIXe au début du XXe siècle et de la place du savant-bogotvoved des XVIIe–XVIIIe siècles Damadan al-Muhi. Montre comment les ulemas daghestanais ont préservé les genres classiques de l'écrit islamique."
+      },
+      "islamSpreadDagestan": {
+        "title": "Reconstruction de la dernière étape de la diffusion de l'Islam au Daghestan (XVIe–XVIIIe siècles)",
+        "author": "Sh. M. Khapizov, M. G. Shekhmagomedov",
+        "description": "À partir de monuments épigraphiques et de sources écrites arabes locales, reconstitue le processus d'adoption de l'Islam à Tsunta — dernier micro-région du Daghestan montagneux où des croyances préislamiques subsistaient encore à la fin du XVIe siècle. Éclaire le rôle des centres gazii et de la mission des qadis dans l'enracinement du tawhid."
+      },
+      "ivrManuscripts": {
+        "title": "Écrits daghestanais en arabe dans la collection de l'IVR RAS",
+        "author": "Alikberov A. K., Chmilevskaya I. A.",
+        "description": "Catalogue des manuscrits arabes d'auteurs daghestanais du fonds des manuscrits musulmans de l'Institut des manuscrits orientaux de la RAS. Présente les œuvres de Sa'id Arakanskii (al-Kharakani), Idris-afandi, Hasan al-Alkadari et d'autres gardiens du savoir sunnite."
+      },
+      "makarovGrammar": {
+        "title": "Grammaire du dialecte tatar du Caucase",
+        "author": "Timofei Makarov",
+        "description": "Manuel historique du dialecte koumyk (tatar du Caucase), composé à partir de l'étude de la langue parlée du peuple de la plaine koumyk. Préserve des témoignages sur la langue de la population musulmane du Caucase septentrional au XIXe siècle."
+      },
+      "tserteliDialects": {
+        "title": "Matériaux pour l'étude des dialectes arabes d'Asie centrale",
+        "author": "G. V. Tserteli",
+        "description": "Publication de relevés de terrain sur les dialectes arabes d'Asie centrale, réalisés lors d'une expédition de 1935. Contient des textes et observations linguistiques importants pour la compréhension de la survie de la langue arabe parlée hors des terres arabes."
+      },
+      "uprising1877": {
+        "title": "Causes et conséquences du soulèvement de 1877 au Daghestan",
+        "author": "Magomeddadaev A. M., Amirova Z. M.",
+        "description": "Étude du plus grand soulèvement anticolonial des musulmans montagnards en 1877, à partir des témoignages contemporains et des travaux des historiens daghestanais. Éclaire les causes socio-économiques et politiques de la révolte contre l'oppression tsariste."
+      },
+      "clergyContradictions": {
+        "title": "Contradictions dans le clergé musulman après la fin de la lutte de libération nationale dans le Caucase septentrional",
+        "author": "Gichibekova R. M.",
+        "description": "Article sur les désaccords documentés au sein du clergé musulman daghestanais après la guerre du Caucase : entre adeptes de la tariqa et zikristes, entre partisans de la coopération avec le pouvoir impérial et défenseurs des principes chariatiques."
+      },
+      "gunibReview": {
+        "title": "« Gunib, août 1859 » : les derniers jours du jihad au Daghestan — recension",
+        "author": "Vadim Mukhanov (recension de l'ouvrage de P. I. Takhnayeva)",
+        "description": "Recension scientifique d'une monographie sur l'épopée de Gunib en août 1859 et la fin de l'imamat de l'imam Shamil. Analyse l'historiographie de la guerre du Caucase en distinguant les témoignages fiables des interprétations idéologisées."
+      },
+      "transcaucasica": {
+        "title": "Transcaucasica, vol. 1 : Le Caucase méridional à l'époque de la domination mongole",
+        "author": "sous la dir. de Z. V. Kananchev",
+        "description": "Premier volume de l'annuaire scientifique consacré à l'histoire des peuples du Caucase méridional et des territoires voisins aux XIIIe–XIVe siècles. Contient des articles sur la situation religieuse, ethnique et politique de la région sous domination mongole."
       }
     }
   },

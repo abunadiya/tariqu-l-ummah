@@ -1,22 +1,4 @@
 /**
- * Каталог книг библиотеки.
- * pdfUrl — локальный файл в public/books/
- * externalUrl — внешняя ссылка (если pdfUrl не задан)
+ * Каталог PDF перенесён в src/pages/Library.jsx (константа LIBRARY_SECTIONS).
+ * Добавляйте новые книги туда и в src/locales/ru.json → library.books.<id>.
  */
-export const LIBRARY_BOOKS = [
-  {
-    id: 'bidaya',
-    pdfUrl: null,
-    externalUrl: 'https://waqfeya.net/book.php?id=3812',
-  },
-  {
-    id: 'tabari',
-    pdfUrl: null,
-    externalUrl: 'https://waqfeya.net/book.php?id=3401',
-  },
-  {
-    id: 'siyar',
-    pdfUrl: null,
-    externalUrl: 'https://waqfeya.net/book.php?id=1239',
-  },
-];

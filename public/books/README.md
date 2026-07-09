@@ -1,9 +1,16 @@
 # Каталог PDF-книг
 
-Поместите файлы книг в эту папку и укажите путь в `src/constants/libraryBooks.js`:
+Поместите файлы книг в эту папку и добавьте запись в `src/pages/Library.jsx` (массив `LIBRARY_SECTIONS`) и в `src/locales/ru.json` → `library.books.<id>`.
 
 ```js
-pdfUrl: '/books/nazvanie-knigi.pdf'
+{
+  id: 'bookId',
+  pdfFilename: 'название-файла.pdf',
+  category: 'arabicSources',
+  type: 'article',
+}
 ```
 
-Если `pdfUrl` не задан, используется `externalUrl` (внешняя ссылка).
+Тексты карточек (название, автор, описание) — в `src/locales/ru.json` и `src/locales/fr.json` в разделе `library.books`.
+
+Кнопка «Читать» открывает PDF по пути `/books/<имя-файла>` с корректной кодировкой URL.
