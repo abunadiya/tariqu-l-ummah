@@ -2,10 +2,41 @@ import { useTranslation } from 'react-i18next';
 import LibraryBookCard from '../components/library/LibraryBookCard';
 
 /**
- * Каталог PDF из public/books — каждая книга явно перечислена по разделам.
+ * Каталог PDF из public/books.
  * Тексты карточек: src/locales/ru.json → library.books.<id>
+ * Категории согласованы с архитектурой .cursorrules.
  */
 const LIBRARY_SECTIONS = [
+  {
+    category: 'hadithAndSira',
+    books: [
+      {
+        id: 'bukhariMukhtasar',
+        pdfFilename: 'Сахих_Аль_Бухари_Мухтасар-rus.pdf',
+        type: 'hadith',
+      },
+      {
+        id: 'bukhariFull',
+        pdfFilename: 'Сахих аль-Бухари..pdf',
+        type: 'hadith',
+      },
+      {
+        id: 'bukhariIbrahim',
+        pdfFilename: '629286674-Сахих-аль-Бухари.pdf',
+        type: 'hadith',
+      },
+      {
+        id: 'sahihMuslim',
+        pdfFilename: 'ru_sahih_muslim.pdf',
+        type: 'hadith',
+      },
+      {
+        id: 'siraMuhammad',
+        pdfFilename: 'ru-siraa.pdf',
+        type: 'sira',
+      },
+    ],
+  },
   {
     category: 'arabicSources',
     books: [
@@ -22,6 +53,72 @@ const LIBRARY_SECTIONS = [
       {
         id: 'daghestanGeography',
         pdfFilename: 'Сведения о Дагестане в арабском географическом.pdf',
+        type: 'article',
+      },
+      {
+        id: 'karaulovArabWriters',
+        pdfFilename:
+          'Сведения арабских писателей X и XI веков по Р. Хр. о Кавказе, Армении и.pdf',
+        type: 'collection',
+      },
+      {
+        id: 'ibnFadlanVolga',
+        pdfFilename: 'ИБН_ФАДЛАН_КНИГА_О_ПУТЕШЕСТВИИ_НА_ВОЛГУ_В_921_922_ГГ.pdf',
+        type: 'source',
+      },
+      {
+        id: 'ibnFadlanReliability',
+        pdfFilename: 'О СТЕПЕНИ ДОСТОВЕРНОСТИ ИБН-ФАДЛАНА.pdf',
+        type: 'article',
+      },
+      {
+        id: 'medievalArabMaps',
+        pdfFilename: 'Средневековые арабские географические тексты и карты.pdf',
+        type: 'monograph',
+      },
+    ],
+  },
+  {
+    category: 'ummahHistory',
+    books: [
+      {
+        id: 'bartoldCaliphate',
+        pdfFilename: 'Бартольд работы по истории халифата.pdf',
+        type: 'monograph',
+      },
+      {
+        id: 'centralAsiaStudies',
+        pdfFilename: 'Исследования по истории средней азии.pdf',
+        type: 'monograph',
+      },
+      {
+        id: 'bukharaEponym',
+        pdfFilename: 'история эпонима бухары.pdf',
+        type: 'article',
+      },
+    ],
+  },
+  {
+    category: 'volgaAndEasternEurope',
+    books: [
+      {
+        id: 'volgaBulgariaHistory',
+        pdfFilename: 'История волжской булгарии.pdf',
+        type: 'monograph',
+      },
+      {
+        id: 'islamInBelarus',
+        pdfFilename: 'История ислама в Беларуси.pdf',
+        type: 'essay',
+      },
+      {
+        id: 'ufaMuslimCenter',
+        pdfFilename: 'Уфа — культурный центр мусульман Российской империи.pdf',
+        type: 'article',
+      },
+      {
+        id: 'tatarFolkloreRoots',
+        pdfFilename: 'Арабо-мусульманские корни татарского фольклора.pdf',
         type: 'article',
       },
     ],
@@ -81,7 +178,8 @@ const LIBRARY_SECTIONS = [
       },
       {
         id: 'clergyContradictions',
-        pdfFilename: 'protivorechiya_v_musulmanskom_duhovenstve_posle_zaversheniya_narodno.pdf',
+        pdfFilename:
+          'protivorechiya_v_musulmanskom_duhovenstve_posle_zaversheniya_narodno.pdf',
         type: 'article',
       },
       {

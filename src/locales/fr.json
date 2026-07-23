@@ -74,24 +74,30 @@
   "library": {
     "title": "Bibliothèque",
     "heroBadge": "طريق الأمّة · Voie de l'Ommah",
-    "subtitle": "Études, sources et ouvrages sur l'histoire de l'Islam, la savoir daghestanaise et l'héritage de l'Ommah — en PDF pour la lecture et l'étude.",
-    "intro": "La bibliothèque rassemble {{count}} documents scientifiques : articles, recueils et ouvrages de référence sur l'histoire de l'Islam dans le Caucase, les sources arabes, les savants daghestanais et la préservation de l'héritage islamique. Le bouton « Lire » ouvre le fichier PDF correspondant.",
+    "subtitle": "Hadiths, sira, sources et livres sur l'histoire de l'Ommah, du Caucase et de la Volga — en PDF.",
+    "intro": "La bibliothèque compte {{count}} livres et articles : hadiths, biographie du Prophète ﷺ, sources arabes, travaux sur le Califat, la Volga et le Caucase. Les descriptions respectent les savants d'Ahl as-Sunna. Le bouton « Lire » ouvre le PDF.",
     "readButton": "Lire",
     "categories": {
-      "arabicSources": "Sources arabes et leurs études",
-      "dagestanScholars": "Savants daghestanais et héritage",
+      "hadithAndSira": "Hadith et sira du Prophète ﷺ",
+      "arabicSources": "Géographie islamique et sources arabes",
+      "ummahHistory": "Histoire mondiale de l'Ommah et Califat",
+      "volgaAndEasternEurope": "Volga et Europe orientale",
+      "dagestanScholars": "Héritage intellectuel du Caucase",
       "islamOnCaucasus": "Histoire de l'Islam dans le Caucase",
+      "languageAndManuscripts": "Linguistique et monuments écrits",
       "colonialPeriod": "Période coloniale et résistance",
-      "languageAndManuscripts": "Langue, grammaire et manuscrits",
       "regionalStudies": "Études régionales"
     },
     "categoryDescriptions": {
-      "arabicSources": "Traductions, commentaires et analyses de chroniques et ouvrages géographiques arabes classiques sur le Caucase.",
-      "dagestanScholars": "Biographies, documents et matériaux sur les savants-bogotvovedy daghestanais et les gardiens du savoir sunnite.",
-      "islamOnCaucasus": "Ouvrages sur la diffusion de l'Islam, l'enracinement de la charia et la vie spirituelle des musulmans montagnards.",
-      "colonialPeriod": "Études sur la guerre du Caucase, les révoltes et le sort du clergé musulman après la conquête.",
-      "languageAndManuscripts": "Grammaires, dialectologie et catalogues de manuscrits arabes d'auteurs daghestanais.",
-      "regionalStudies": "Recueils et annuaires sur l'histoire des peuples du Caucase et des régions voisines."
+      "hadithAndSira": "Recueils authentiques de hadiths et biographie du Messager d'Allah ﷺ — fondement de la Sunna et de la voie des salaf.",
+      "arabicSources": "Ouvrages géographiques et historiques des savants musulmans des IXe–XIe siècles sur le Caucase, la Volga et les régions voisines.",
+      "ummahHistory": "Travaux sur le Califat, le Mawara'annahr et l'héritage civilisationnel de l'Ommah.",
+      "volgaAndEasternEurope": "Adoption de l'Islam par la Bulgarie de la Volga, communautés musulmanes de la Volga, de Biélorussie et d'Oufa.",
+      "dagestanScholars": "Biographies et documents sur les savants daghestanais — gardiens du savoir sunnite.",
+      "islamOnCaucasus": "Diffusion de l'Islam, enracinement de la charia et vie spirituelle des musulmans montagnards.",
+      "languageAndManuscripts": "Grammaires, dialectologie et catalogues de manuscrits arabes.",
+      "colonialPeriod": "Études sur la guerre du Caucase et les épreuves des communautés musulmanes.",
+      "regionalStudies": "Recueils sur l'histoire des peuples du Caucase et des terres voisines."
     },
     "types": {
       "article": "Article",
@@ -100,73 +106,157 @@
       "grammar": "Grammaire",
       "monograph": "Monographie",
       "yearbook": "Annuaire",
-      "review": "Recension"
+      "review": "Recension",
+      "hadith": "Hadith",
+      "sira": "Sira",
+      "source": "Source",
+      "essay": "Essai"
     },
     "books": {
+      "bukhariMukhtasar": {
+        "title": "Mukhtasar du « Sahih » de l'imam al-Bukhari",
+        "author": "Imam Muhammad ibn Isma'il al-Bukhari ; trad. V. M. Nirsha",
+        "description": "Abrégé du « Sahih » d'al-Bukhari — premier recueil de hadiths authentiques du Messager d'Allah ﷺ chez Ahl as-Sunna."
+      },
+      "bukhariFull": {
+        "title": "« Sahih » d'al-Bukhari",
+        "author": "Imam Muhammad ibn Isma'il al-Bukhari",
+        "description": "Texte du « Sahih » d'al-Bukhari — pilier de la science du hadith et fondement de la 'aqida et du fiqh sunnites."
+      },
+      "bukhariIbrahim": {
+        "title": "Abrégé du « Sahih » d'al-Bukhari",
+        "author": "édition Fondation Ibrahim bin Abdulaziz Al-Ibrahim",
+        "description": "Abrégé russe du recueil authentique d'al-Bukhari, avec louange à Allah et salawat sur le Prophète Muhammad ﷺ."
+      },
+      "sahihMuslim": {
+        "title": "« Sahih » de l'imam Muslim",
+        "author": "Imam Muslim ibn al-Hajjaj",
+        "description": "Deuxième recueil de hadiths authentiques chez Ahl as-Sunna, fondement de la transmission de la Sunna du Prophète ﷺ."
+      },
+      "siraMuhammad": {
+        "title": "Brève biographie du Prophète Muhammad ﷺ et ses mérites",
+        "author": "Haytham ibn Muhammad Sarhan",
+        "description": "Courte sira du Messager d'Allah ﷺ, dans la tradition sunnite, sans innovations ni distorsions séculières."
+      },
       "kayaevBashlarov": {
         "title": "De l'histoire de la vie et de l'œuvre d'Ali Kayayev et de Sayfulla-qadi Bashlarov",
         "author": "Shikhaliiev Sh.Sh., Navruzov A.R.",
-        "description": "Recueil de documents et de matériaux sur deux éminents savants-bogotvovedy, pédagogues et historiens daghestanais — Ali Kayayev (m. 1943) et le cheikh Sayfulla-qadi Bashlarov (1852–1911). Restitue leurs biographies, leur contribution à la diffusion du savoir sunnite, la fondation du premier journal en arabe « Jaridat Dagestan » et la préservation de la tradition islamique à la charnière des époques impériale et soviétique."
+        "description": "Recueil sur deux savants daghestanais éminents — Ali Kayayev et Sayfulla-qadi Bashlarov — et la préservation du savoir islamique."
       },
       "tabariDagestan": {
-        "title": "Données sur le Daghestan dans le « Tarikh ar-rusul wal-muluk » de l'imam at-Tabari",
+        "title": "Données sur le Daghestan dans le « Tarikh » de l'imam at-Tabari",
         "author": "M. A. Gizbulaev",
-        "description": "Article de recherche sur la traduction et l'analyse de fragments du monument de l'imam at-Tabari « Tarikh ar-rusul wal-muluk » (« Histoire des prophètes et des rois ») relatifs au Caucase et au Daghestan aux VIe–VIIIe siècles. Éclaire les témoignages sur la conquête d'al-Bab (Derbent) et les relations du califat avec les peuples du Caucase oriental."
+        "description": "Traduction et analyse de fragments d'at-Tabari sur le Caucase et Derbent aux VIe–VIIIe siècles."
       },
       "ibnRustaDagestan": {
         "title": "Données sur le Daghestan dans le « Kitab al-a'laq an-nafisa » d'Ibn Rusta",
         "author": "M. A. Gizbulaev",
-        "description": "Article de traduction et de commentaire d'extraits du « Kitab al-a'laq an-nafisa » (« Livre des colliers précieux ») d'Abu 'Ali Ahmad ibn 'Umar ibn Rusta — source géographique précieuse sur le Caucase au Xe siècle. Contient des renseignements sur l'État de Sarir, l'ethnographie des peuples montagnards et les formations politiques du Daghestan."
+        "description": "Commentaire de la géographie d'Ibn Rusta (Xe s.) sur Sarir et le Caucase oriental."
       },
       "daghestanGeography": {
-        "title": "Données sur le Daghestan dans l'ouvrage géographique arabe d'Ibn Rusta",
+        "title": "Données sur le Daghestan dans l'ouvrage géographique d'Ibn Rusta",
         "author": "M. A. Gizbulaev",
-        "description": "Publication scientifique (2021) avec traduction, commentaires et analyse comparative des données géographiques d'Ibn Rusta avec les œuvres d'Ibn Khordadbeh et d'Ibn al-Fakih."
+        "description": "Analyse comparative d'Ibn Rusta, Ibn Khordadbeh et Ibn al-Faqih."
+      },
+      "karaulovArabWriters": {
+        "title": "Témoignages des écrivains arabes des Xe–XIe s. sur le Caucase",
+        "author": "compil. N. A. Karaulov",
+        "description": "Traductions d'al-Istakhri, Ibn Khordadbeh, Ibn Rusta, al-Ya'qubi, al-Maqdisi, Mas'udi, Ibn Hawqal."
+      },
+      "ibnFadlanVolga": {
+        "title": "Ahmad ibn Fadlan. Livre du voyage sur la Volga (921–922)",
+        "author": "Ahmad ibn Fadlan",
+        "description": "Risala de l'envoyé du Califat au souverain de la Bulgarie de la Volga — source sur l'enracinement du tawhid."
+      },
+      "ibnFadlanReliability": {
+        "title": "Sur le degré de fiabilité d'Ibn Fadlan",
+        "author": "étude de source",
+        "description": "Analyse critique des rapports d'Ibn Fadlan sur les Bulgares, Khazars et Rus."
+      },
+      "medievalArabMaps": {
+        "title": "Textes et cartes géographiques arabes médiévaux",
+        "author": "recueil de géographie islamique",
+        "description": "Matériaux sur la cartographie arabe médiévale, complémentaire aux ouvrages d'Ibn Rusta et d'al-Istakhri."
+      },
+      "bartoldCaliphate": {
+        "title": "Travaux sur l'histoire du Califat",
+        "author": "V. V. Bartold",
+        "description": "Travaux historiques sur le Califat. Distinguer les faits utiles des jugements séculiers de l'auteur."
+      },
+      "centralAsiaStudies": {
+        "title": "Études sur l'histoire de l'Asie centrale",
+        "author": "recueil d'orientalisme",
+        "description": "Études sur le Mawara'annahr — à croiser avec les sources sunnites."
+      },
+      "bukharaEponym": {
+        "title": "Histoire de l'éponyme de Boukhara",
+        "author": "étude historico-philologique",
+        "description": "Origine du nom de Boukhara — centre du savoir sunnite et patrie d'al-Bukhari."
+      },
+      "volgaBulgariaHistory": {
+        "title": "Histoire de la Bulgarie de la Volga d'après les sources écrites",
+        "author": "D. V. Mukhetdinov, V. V. Tishin",
+        "description": "Étude pour le 1100e anniversaire de l'adoption de l'Islam par les peuples de la Bulgarie de la Volga."
+      },
+      "islamInBelarus": {
+        "title": "Histoire de l'islam en Biélorussie",
+        "author": "essai historique",
+        "description": "Plus de six siècles d'histoire des musulmans de Biélorussie et la préservation de la foi."
+      },
+      "ufaMuslimCenter": {
+        "title": "Oufa — centre culturel des musulmans de l'Empire russe",
+        "author": "Azamatova, Rodnov, Farkhshatov",
+        "description": "Article sur Oufa comme foyer éducatif musulman au tournant des XIXe–XXe siècles."
+      },
+      "tatarFolkloreRoots": {
+        "title": "Racines arabo-musulmanes du folklore tatar",
+        "author": "Azat Akhunov",
+        "description": "Influence de la littérature coranique et exégétique sur le folklore tatar."
       },
       "damadanMuhi": {
-        "title": "Biographies arabographiques daghestanaises et le savant-bogotvoved Damadan al-Muhi",
+        "title": "Biographies arabographiques et le savant Damadan al-Muhi",
         "author": "M. A. Musaev",
-        "description": "Étude de l'évolution de la littérature biographique arabographique daghestanaise de la seconde moitié du XIXe au début du XXe siècle et de la place du savant-bogotvoved des XVIIe–XVIIIe siècles Damadan al-Muhi. Montre comment les ulemas daghestanais ont préservé les genres classiques de l'écrit islamique."
+        "description": "Évolution de la littérature biographique daghestanaise et place de Damadan al-Muhi."
       },
       "islamSpreadDagestan": {
-        "title": "Reconstruction de la dernière étape de la diffusion de l'Islam au Daghestan (XVIe–XVIIIe siècles)",
-        "author": "Sh. M. Khapizov, M. G. Shekhmagomedov",
-        "description": "À partir de monuments épigraphiques et de sources écrites arabes locales, reconstitue le processus d'adoption de l'Islam à Tsunta — dernier micro-région du Daghestan montagneux où des croyances préislamiques subsistaient encore à la fin du XVIe siècle. Éclaire le rôle des centres gazii et de la mission des qadis dans l'enracinement du tawhid."
+        "title": "Dernière étape de la diffusion de l'Islam au Daghestan (XVIe–XVIIIe s.)",
+        "author": "Khapizov, Shekhmagomedov",
+        "description": "Reconstruction de l'adoption de l'Islam à Tsunta d'après des sources arabes locales."
       },
       "ivrManuscripts": {
         "title": "Écrits daghestanais en arabe dans la collection de l'IVR RAS",
-        "author": "Alikberov A. K., Chmilevskaya I. A.",
-        "description": "Catalogue des manuscrits arabes d'auteurs daghestanais du fonds des manuscrits musulmans de l'Institut des manuscrits orientaux de la RAS. Présente les œuvres de Sa'id Arakanskii (al-Kharakani), Idris-afandi, Hasan al-Alkadari et d'autres gardiens du savoir sunnite."
+        "author": "Alikberov, Chmilevskaya",
+        "description": "Catalogue de manuscrits d'auteurs daghestanais — héritage des savants sunnites du Caucase."
       },
       "makarovGrammar": {
         "title": "Grammaire du dialecte tatar du Caucase",
         "author": "Timofei Makarov",
-        "description": "Manuel historique du dialecte koumyk (tatar du Caucase), composé à partir de l'étude de la langue parlée du peuple de la plaine koumyk. Préserve des témoignages sur la langue de la population musulmane du Caucase septentrional au XIXe siècle."
+        "description": "Manuel historique du koumyk au XIXe siècle."
       },
       "tserteliDialects": {
         "title": "Matériaux pour l'étude des dialectes arabes d'Asie centrale",
         "author": "G. V. Tserteli",
-        "description": "Publication de relevés de terrain sur les dialectes arabes d'Asie centrale, réalisés lors d'une expédition de 1935. Contient des textes et observations linguistiques importants pour la compréhension de la survie de la langue arabe parlée hors des terres arabes."
+        "description": "Relevés de 1935 sur l'arabe parlé en Asie centrale."
       },
       "uprising1877": {
         "title": "Causes et conséquences du soulèvement de 1877 au Daghestan",
-        "author": "Magomeddadaev A. M., Amirova Z. M.",
-        "description": "Étude du plus grand soulèvement anticolonial des musulmans montagnards en 1877, à partir des témoignages contemporains et des travaux des historiens daghestanais. Éclaire les causes socio-économiques et politiques de la révolte contre l'oppression tsariste."
+        "author": "Magomeddadaev, Amirova",
+        "description": "Étude du grand soulèvement anticolonial des musulmans montagnards en 1877."
       },
       "clergyContradictions": {
-        "title": "Contradictions dans le clergé musulman après la fin de la lutte de libération nationale dans le Caucase septentrional",
+        "title": "Contradictions dans le clergé musulman après la guerre du Caucase",
         "author": "Gichibekova R. M.",
-        "description": "Article sur les désaccords documentés au sein du clergé musulman daghestanais après la guerre du Caucase : entre adeptes de la tariqa et zikristes, entre partisans de la coopération avec le pouvoir impérial et défenseurs des principes chariatiques."
+        "description": "Document d'archives sur les désaccords du clergé daghestanais. Critère de lecture : Livre d'Allah, Sunna du Prophète ﷺ et voie des salaf."
       },
       "gunibReview": {
-        "title": "« Gunib, août 1859 » : les derniers jours du jihad au Daghestan — recension",
-        "author": "Vadim Mukhanov (recension de l'ouvrage de P. I. Takhnayeva)",
-        "description": "Recension scientifique d'une monographie sur l'épopée de Gunib en août 1859 et la fin de l'imamat de l'imam Shamil. Analyse l'historiographie de la guerre du Caucase en distinguant les témoignages fiables des interprétations idéologisées."
+        "title": "« Gunib, août 1859 » — recension",
+        "author": "Vadim Mukhanov",
+        "description": "Recension sur la fin de l'imamat de Shamil et l'historiographie de Gunib."
       },
       "transcaucasica": {
-        "title": "Transcaucasica, vol. 1 : Le Caucase méridional à l'époque de la domination mongole",
+        "title": "Transcaucasica, vol. 1 : Caucase méridional sous domination mongole",
         "author": "sous la dir. de Z. V. Kananchev",
-        "description": "Premier volume de l'annuaire scientifique consacré à l'histoire des peuples du Caucase méridional et des territoires voisins aux XIIIe–XIVe siècles. Contient des articles sur la situation religieuse, ethnique et politique de la région sous domination mongole."
+        "description": "Annuaire sur le Caucase méridional aux XIIIe–XIVe siècles."
       }
     }
   },
@@ -243,12 +333,12 @@
     },
     "crimea": {
       "title": "Islam en Crimée et sur la Volga",
-      "period": "De la Horde d'Or aux annexions impériales",
-      "description": "Chapitre sur l'islamisation de la Crimée et de la Volga, les khanats, les medersas et les liens avec le monde sunnite.",
+      "period": "De la Bulgarie de la Volga aux annexions impériales",
+      "description": "Le chapitre commence par l'ambassade d'Ibn Fadlan et l'adoption de l'Islam par la Bulgarie de la Volga (310 H. / 922), puis couvre la Horde d'Or, les khanats de Crimée et de Kazan, les medersas et les épreuves coloniales.",
       "related": {
-        "caucasus": "Crimée et Caucase : islam frontalier et résistance.",
+        "caucasus": "Crimée, Volga et Caucase : islam frontalier et résistance.",
         "centralAsia": "Comparer avec le Turkestan montre les mécanismes de rupture coloniale.",
-        "abbasids": "Traditions savantes issues de l'héritage islamique classique."
+        "abbasids": "L'ambassade d'al-Muqtadir vers les Bulgares relie la Volga au centre abbasside du Califat."
       }
     }
   },

@@ -68,7 +68,8 @@ export const NORTH_CAUCASUS_TOPICS = [
 ];
 
 export const CRIMEA_TOPICS = [
-  { id: 'goldenHorde', accordionId: 'collapseCr1', icon: I.crescent, waqfeyaId: '3405', defaultOpen: true },
+  { id: 'volgaBulgaria', accordionId: 'collapseCr0', icon: I.map, waqfeyaId: '3812', defaultOpen: true },
+  { id: 'goldenHorde', accordionId: 'collapseCr1', icon: I.crescent, waqfeyaId: '3405' },
   { id: 'education', accordionId: 'collapseCr2', icon: I.book, waqfeyaId: '3812' },
   { id: 'annexation', accordionId: 'collapseCr3', icon: I.flag, waqfeyaId: '3812' },
   { id: 'oppression', accordionId: 'collapseCr4', icon: I.mosque, waqfeyaId: '3401' },
